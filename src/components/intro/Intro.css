@@ -1,0 +1,110 @@
+.intro {
+    display: flex;
+    background-color: bisque;
+}
+
+.introLeft {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+/* 
+.introLeftWrapper {
+    padding: 20px;
+    height: 100%;
+    background-color: rgb(163, 170, 106);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+
+.introHello {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.introName {
+    font-size: 60px;
+    position: relative;
+    z-index: 9;
+}
+
+.introTitle {
+    height: 50px;
+    overflow: hidden;
+}
+
+.introTitleWrapper {
+    height: 100%;
+    animation: move 8s ease-in-out infinite running ;
+    position: relative;
+    z-index: 9;
+}
+
+.introDescription {
+    margin-top: 20px;
+    position: relative;
+    z-index: 9;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    75%{
+        transform: translateY(-50px);
+    }
+}
+
+.introTitleItem {
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(204, 127, 115);
+    display: flex;
+    align-items: center;
+
+
+}
+
+.introRight {
+    flex: 1;
+  
+   
+}
+
+/* .introRightWrapper {
+    padding: 20px;
+    height: 100%;
+    background-color: rgb(104, 171, 104);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.introImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    position: relative;
+    
+}
+
+.introImgBackground {
+    clip-path: polygon(69% 0, 100% 0, 100% 100%, 71% 100%, 36% 50%);
+    background-color: rgb(194, 240, 45);
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+}
