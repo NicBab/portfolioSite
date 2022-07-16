@@ -7,9 +7,10 @@ const About = () => {
     <div className="about">
       <div className="aboutLeft">
         Left
-        <div className="aboutCardBackground"></div>
-        <div className="aboutCard">
-          <img src={ME} alt="" className="aboutImg" />
+        <div className="cardBackground">
+          <div className="aboutCard">
+            <img src={ME} alt="" className="aboutImg" />
+          </div>
         </div>
       </div>
       <div className="aboutRight">Right</div>
