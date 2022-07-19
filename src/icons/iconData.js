@@ -1,6 +1,7 @@
-import ContactPageIcon from "@mui/icons-material/ContactPage";
 import FolderSharedIcon from "@mui/icons-material/FolderShared";
 import HomeIcon from "@mui/icons-material/Home";
+import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled';
+import ContentPasteSearchIcon from '@mui/icons-material/ContentPasteSearch';
 
 export const iconData = [
   {
@@ -10,15 +11,28 @@ export const iconData = [
     cName: "menu-text",
   },
   {
-    title: "Contact",
-    path: "/contact",
-    icon: <ContactPageIcon />,
-    cName: "menu-text",
+    title: "Bio",
+    path: "/bio",
+    icon: <FolderSharedIcon />,
+    cName: "menu-text"
   },
   {
     title: "Portfolio",
     path: "/portfolio",
-    icon: <FolderSharedIcon />,
+    icon:  <FolderSharedIcon />,
     cName: "menu-text",
   },
+  {
+    title: "Resume",
+    path: "/resume",
+    icon: <ContentPasteSearchIcon />,
+    cName: "menu-text"
+  },
+  {
+    title: "Contact",
+    path: "/contact",
+    icon: <PhoneEnabledIcon />,
+    cName: "menu-text",
+  },
+
 ];

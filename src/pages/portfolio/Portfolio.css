@@ -1,0 +1,67 @@
+.projects {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 173, 226);
+    height: 100vh;
+   
+}
+
+.itemCard {
+    background-image: linear-gradient(to bottom right, rgb(146, 96, 193), rgb(136, 19, 246));
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    height: 40vh;
+    position: relative;
+
+}
+
+.itemImg {
+    width: 300px;
+    height: 280px;
+    border-radius: 20px;;
+}
+
+.itemTitle {
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+
+.itemDesc {
+    color: white;
+}
+
+.visitBtn {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, rgb(121, 14, 222), rgb(43, 3, 81));
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 800px) {
+    .projects {
+        flex-direction: column;
+    }
+
+    .itemCard {
+        height: 50%;
+    }
+
+   .visitBtn {
+       position: inherit;
+       margin-top: 15px;
+   }
+}

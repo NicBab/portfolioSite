@@ -13,8 +13,8 @@ const Hamburger = () => {
   return (
     <>
       <IconContext.Provider value={{ color: "#22b685" }}>
-        <div className="nav">
-          <Link to="#" className="burger">
+        <div className="nav" >
+          <Link to="#" className="burger" >
             <MenuOutlinedIcon sx={{ fontSize: "35px" }} onClick={showMenu} />
           </Link>
           <nav className={menu ? "nav-menu active" : "nav-menu"}>
@@ -24,9 +24,9 @@ const Hamburger = () => {
                   <CancelIcon />
                 </Link>
               </li>
-              {iconData.map((item, index) => {
+              {iconData.map((item, idx) => {
                 return (
-                  <li key={index} className={item.cName}>
+                  <li key={idx} className={item.cName}>
                     <Link to={item.path}>
                       {item.icon}
                       <span>{item.title}</span>

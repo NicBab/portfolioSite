@@ -1,12 +1,10 @@
 import React from "react";
 import "./Intro.css";
 import myPic from "../../image/17037709-5A5F-41F2-A024-3EF7A2E76EA1_1_105_c.jpeg";
-import { Hamburger } from "../compIndex";
 
 const Intro = () => {
   return (
     <div className="intro">
-      <Hamburger />
       <div className="introLeft">
         <div className="introLeftWrapper">
           <h2 className="introHello">Hello, My name is</h2>
@@ -26,7 +24,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="introRight">
-        {/* <div className="introImgBackground"></div> */}
+        <div className="introImgBackground"></div>
         <img src={myPic} alt="" className="introImg" />
       </div>
     </div>
