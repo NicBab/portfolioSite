@@ -1,6 +1,6 @@
 import React from "react";
 import "./BioPg.css";
-import bioPic from "../../image/17037709-5A5F-41F2-A024-3EF7A2E76EA1_1_105_c.jpeg";
+import drumPic from "../../image/IMG_3364.jpeg"
 import { bioData } from "../../data";
 
 const BioPg = () => {
@@ -8,7 +8,7 @@ const BioPg = () => {
     <>
       <div className="bioWrapper">
         <figcaption className="bioDesc">
-          <img src={bioPic} alt="" className="bioPic" />
+          <img src={drumPic} alt="" className="drumPic" />
           Hi all! My name is Nic Babineaux, I am currently located in Lafayette,
           Louisiana. I am a fullstack, front end, ui developer, certified
           powersports technician and musician. Attended and graduated MMI

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import drumPic from "../../image/IMG_3364.jpeg"
+import sipPic from "../../image/17037709-5A5F-41F2-A024-3EF7A2E76EA1_1_105_c.jpeg";
 
 const Intro = () => {
   return (
@@ -25,7 +25,7 @@ const Intro = () => {
       </div>
       <div className="introRight">
         <div className="introImgBackground"></div>
-        <img src={drumPic} alt="" className="introImg" />
+        <img src={sipPic} alt="" className="introImg" />
       </div>
     </div>
   );

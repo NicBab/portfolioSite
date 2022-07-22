@@ -1,8 +1,12 @@
 import React from 'react'
+import "./Footer.css"
+import { Social } from "../compIndex"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className="footer">
+      <Social />  
+    </div>
   )
 }
 

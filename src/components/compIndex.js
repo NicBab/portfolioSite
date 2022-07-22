@@ -1,5 +1,6 @@
 export { default as  Topbar } from "./topbar/Topbar"
 export { default as Hamburger } from "./hamburger/Hamburger";
+export { default as Plus } from "./plus/Plus"
 export { default as NavLinks } from "./navLinks/NavLinks"
 export { default as Social } from "./social/Social"
 export { default as Intro } from "./intro/Intro";

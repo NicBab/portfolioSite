@@ -2,7 +2,7 @@ import SGphoto from "./image/sgPhotoImg copy.png"
 import Bytor from "./image/bytorDesignsImg.png"
 import LSU from "./image/16 LSU 2101 NICHOLAS .pdf-1.jpg"
 
-
+//projects map
 export const portfolioData = [
     {
         id: 1,
@@ -24,6 +24,8 @@ export const portfolioData = [
     }
 ];
 
+
+//bio page "certifications"
 export const bioData = [
     {
         id: 1,

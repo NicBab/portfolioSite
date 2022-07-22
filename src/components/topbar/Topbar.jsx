@@ -1,7 +1,7 @@
 import React from "react";
 import "./Topbar.css";
 
-import { Hamburger, NavLinks, Social } from "../compIndex";
+import { Hamburger, NavLinks, Social, Plus } from "../compIndex";
 
 const Topbar = () => {
   return (
@@ -9,6 +9,7 @@ const Topbar = () => {
       <Hamburger />
       <NavLinks />
       <Social />
+      <Plus />
     </div>
   );
 };
