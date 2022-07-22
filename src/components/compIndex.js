@@ -1,5 +1,10 @@
+export { default as  Topbar } from "./topbar/Topbar"
+export { default as Hamburger } from "./hamburger/Hamburger";
+export { default as NavLinks } from "./navLinks/NavLinks"
+export { default as Social } from "./social/Social"
 export { default as Intro } from "./intro/Intro";
 export { default as About } from "./about/About";
-export { default as Hamburger } from "./hamburger/Hamburger";
+export { default as Projects } from "./projects/Projects"
+export { default as Resume } from "./resume/Resume"
 export { default as Contact } from "./contact/Contact"
-export { default as  Topbar } from "./topbar/Topbar"
+export { default as Footer } from "./footer/Footer"

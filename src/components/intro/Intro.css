@@ -1,6 +1,6 @@
 .intro {
     display: flex;
-    background-color: bisque;
+    background-color: #E9D5CA;
 }
 
 .introLeft {
@@ -78,9 +78,9 @@
 
 .introImg {
     width: 100%;
-    height: 110%;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    position: relative;
+    height: 100%;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 40% 100%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }

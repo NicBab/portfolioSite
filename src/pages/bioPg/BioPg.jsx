@@ -1,11 +1,14 @@
 import React from "react";
-import "./Bio.css"
+import "./BioPg.css";
+import bioPic from "../../image/17037709-5A5F-41F2-A024-3EF7A2E76EA1_1_105_c.jpeg";
+import { bioData } from "../../data";
 
-const Bio = () => {
+const BioPg = () => {
   return (
     <>
-      <div className="bioDesc">
-        <figcaption>
+      <div className="bioWrapper">
+        <figcaption className="bioDesc">
+          <img src={bioPic} alt="" className="bioPic" />
           Hi all! My name is Nic Babineaux, I am currently located in Lafayette,
           Louisiana. I am a fullstack, front end, ui developer, certified
           powersports technician and musician. Attended and graduated MMI
@@ -28,9 +31,20 @@ const Bio = () => {
           end and fullstack developer, creating responsive and functional web
           applications for individual artists and local small businesses!
         </figcaption>
+
+      <h2 style={{ padding: "10px" }}>CERTIFICATIONS</h2>
+        <div className="certs">
+          {bioData.map((item, idx) => (
+            <div className="certCard" key={idx}>
+              <img src={item.img} alt="" className="certImg" />
+              <div className="certTitle">{item.title}</div>
+              <div className="certDesc">{item.desc}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
 };
 
-export default Bio;
+export default BioPg;

@@ -1,21 +1,28 @@
+.title {
+    text-align: center;
+    color:rgb(30, 1, 58);
+    background-color: rgb(186, 186, 242);
+
+}
+
 .projects {
     display: flex;
     flex-direction: row;
-    background-color: rgb(173, 173, 226);
-    height: 100vh;
+    background-color: rgb(196, 196, 241);
+    height: auto;
    
 }
 
 .itemCard {
-    background-image: linear-gradient(to bottom right, rgb(146, 96, 193), rgb(136, 19, 246));
+    background-image: linear-gradient(to bottom right, rgb(136, 19, 246), rgb(146, 96, 193));
     display: flex;
     align-items: center;
     justify-content: start;
     flex-direction: column;
     padding: 20px;
     margin: 10px;
-    border-radius: 30px;
-    height: 40vh;
+    border-radius: 20px;
+    height: 400px;
     position: relative;
 
 }
@@ -23,7 +30,7 @@
 .itemImg {
     width: 300px;
     height: 280px;
-    border-radius: 20px;;
+    border-radius: 10px;;
 }
 
 .itemTitle {
@@ -40,8 +47,8 @@
 .visitBtn {
     display: flex;
     position: absolute;
-    bottom: 20px;
-    left: 40px;
+    bottom: 30px;
+    right: 40px;
     border: none;
     border-radius: 20px;
     background-image: linear-gradient(to bottom right, rgb(121, 14, 222), rgb(43, 3, 81));
@@ -51,13 +58,29 @@
     letter-spacing: 1px;
 }
 
+.gitIcon {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    color: #B4AEE8;
+}
+
+.gitIcon:hover {
+    color: #99FEFF;
+}
+
+.visitBtn:hover {
+    color: #99FEFF
+}
+
 @media screen and (max-width: 800px) {
     .projects {
         flex-direction: column;
     }
 
     .itemCard {
-        height: 50%;
+        height: auto;
+   
     }
 
    .visitBtn {

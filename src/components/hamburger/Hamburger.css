@@ -1,9 +1,7 @@
-.nav {
+.burgerNav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    height: 50%;
+    justify-content: start;
 }
 
 /*close icon div*/
@@ -83,6 +81,9 @@ display: none;
     list-style: none;
     height: 40px;
 }
+.menu-text a:active {
+    color: aqua;
+}
 
 .menu-text:last-child {
     margin-bottom: 30px;
@@ -102,13 +103,11 @@ span {
         margin-top: 70px;
     }
 
-    .menu-text a:active {
-        color: aqua;
-    }
-
     .burger {
         display: flex;
+        justify-content: start;
         margin: 1rem;
         color: rgb(251, 250, 250);
     }
+ 
 }

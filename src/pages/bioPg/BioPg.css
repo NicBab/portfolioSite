@@ -1,0 +1,55 @@
+.bioWrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(186, 186, 242);
+}
+
+.bioDesc {
+    padding: 40px;
+    text-indent: 50px;
+    background-color: #E9D5CA;
+}
+
+.bioPic {
+    height: 400px;
+    width: 400px;
+    float: left;
+    padding: 30px;
+    clip-path: polygon(40% 1%, 75% 0%, 100% 48%, 63% 95%, 25% 100%, 0 49%);
+}
+
+.certCard {
+    background-image: linear-gradient(to bottom right, rgb(136, 19, 246), rgb(146, 96, 193));
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    height: 400px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.certImg {
+    height: 250px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.certTitle {
+ color: white;
+}
+
+.certDesc {
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .certs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

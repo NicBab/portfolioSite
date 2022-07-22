@@ -11,9 +11,9 @@ const Hamburger = () => {
   const showMenu = () => setMenu(!menu);
 
   return (
-    <>
+    <div className="burgerNav">
       <IconContext.Provider value={{ color: "#22b685" }}>
-        <div className="nav" >
+        <div className="nav">
           <Link to="#" className="burger" >
             <MenuOutlinedIcon sx={{ fontSize: "35px" }} onClick={showMenu} />
           </Link>
@@ -38,7 +38,7 @@ const Hamburger = () => {
           </nav>
         </div>
       </IconContext.Provider>
-    </>
+    </div>
   );
 };
 export default Hamburger;

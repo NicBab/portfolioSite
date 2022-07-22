@@ -1,0 +1,20 @@
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icon {
+    display: flex;
+    cursor: pointer;
+    margin: 5px;
+    color: #B4AEE8;
+}
+
+.icon:hover {
+    color: #99FEFF;
+}
+
+@media screen and (max-width: 800px) {
+  
+}

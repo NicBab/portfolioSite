@@ -1,6 +1,6 @@
 import "./App.css";
-import { Topbar } from "./components/compIndex"
-import { Contact, Portfolio, Home, Resume, Bio } from "./pages/pagesIndex";
+import { Topbar, Footer } from "./components/compIndex"
+import { ContactPg, PortfolioPg, HomePg, ResumePg, BioPg } from "./pages/pagesIndex";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -8,12 +8,13 @@ function App() {
     <>
     <Topbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/bio" element={<Bio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/resume" element={<Resume />} />
+        <Route exact path="/" element={<HomePg />} />
+        <Route path="/bio" element={<BioPg />} />
+        <Route path="/contact" element={<ContactPg />} />
+        <Route path="/portfolio" element={<PortfolioPg />} />
+        <Route path="/resume" element={<ResumePg />} />
       </Routes>
+      <Footer />
     </>
   );
 }
