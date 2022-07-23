@@ -19,13 +19,11 @@ a {
 
 a:hover {
     color: #99FEFF;
-    text-decoration: underline;
 }
 
 
 /* show hamburger menu when screen size is < 800px */
 @media screen and (max-width: 800px) {
-   
     .navLinks {
         display: none;
     }

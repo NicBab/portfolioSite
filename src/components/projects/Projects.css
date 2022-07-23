@@ -1,16 +1,14 @@
-.title {
+.pgTitle {
     text-align: center;
     color:rgb(30, 1, 58);
     background-color: rgb(186, 186, 242);
-
 }
 
 .projects {
     display: flex;
     flex-direction: row;
     background-color: rgb(196, 196, 241);
-    height: auto;
-   
+    height: 100vh;
 }
 
 .itemCard {
@@ -23,8 +21,8 @@
     margin: 10px;
     border-radius: 20px;
     height: 400px;
+    width: 300px;
     position: relative;
-
 }
 
 .itemImg {
@@ -40,8 +38,29 @@
     padding: 5px;
 }
 
-.itemDesc {
+/*item.desc*/
+.info {
     color: white;
+}
+
+.cardNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gitIcon {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    color: #B4AEE8;
+}
+.i-Icon {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    color: #B4AEE8;
+    cursor: pointer;
 }
 
 .visitBtn {
@@ -58,33 +77,33 @@
     letter-spacing: 1px;
 }
 
-.gitIcon {
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
-    color: #B4AEE8;
-}
-
 .gitIcon:hover {
     color: #99FEFF;
 }
-
+.i-Icon:hover {
+    color: #99FEFF;
+}
 .visitBtn:hover {
     color: #99FEFF
 }
 
 @media screen and (max-width: 800px) {
     .projects {
-        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .itemCard {
-        height: auto;
-   
+        height: 400px;
+        width: 300px;
     }
 
    .visitBtn {
-       position: inherit;
+    position: absolute;
+       bottom: 30px;
+       right: 20px;
        margin-top: 15px;
    }
 }

@@ -19,7 +19,7 @@ export const portfolioData = [
         img: Bytor,
         url: "https://optimistic-babbage-eb36e4.netlify.app/",
         gitURL: "https://github.com/NicBab/Bytor_Designs",
-        desc: "Graphic design artist page",
+        desc: "Lafayette Louisiana local Graphic design artist page",
         cName: "project-item"
     }
 ];
