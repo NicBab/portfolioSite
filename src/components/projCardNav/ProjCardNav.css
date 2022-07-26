@@ -1,0 +1,55 @@
+/* {item.desc} */
+.info {
+    color: white;
+    border-radius: 10px;
+}
+
+.cardNav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    align-self: end;
+}
+
+.gitIcon {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    
+    color: #B4AEE8;
+}
+
+.i-Icon {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    color: #B4AEE8;
+    cursor: pointer;
+}
+
+.visitBtn {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, rgb(121, 14, 222), rgb(43, 3, 81));
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.gitIcon:hover {
+    color: #99FEFF;
+}
+.i-Icon:hover {
+    color: #99FEFF;
+}
+.visitBtn:hover {
+    color: #99FEFF;
+}
+
+@media screen and ( max-width: 800px) {
+}

@@ -9,7 +9,26 @@
 .bioDesc {
     padding: 25px;
     text-indent: 50px;
-    background-color: #E9D5CA; 
+    background-color: #E9D5CA;
+}
+
+.contactMeBtn {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, rgb(121, 14, 222), rgb(43, 3, 81));
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 8px rgb(55, 27, 53);
+}
+.contactMeBtn:hover {
+    color: #99FEFF;
 }
 
 .drumPic {
@@ -26,24 +45,28 @@
     align-items: center;
     justify-content: start;
     flex-direction: column;
-    height: 400px;
-    padding: 5px;
+    padding: 20px;
     margin: 10px;
-    border-radius: 30px;
+    border-radius: 20px;
+    height: 425px;
+    width: 300px;
+    position: relative;
+    box-shadow: 6px 6px 10px rgb(55, 27, 53);
 }
 
 .certImg {
     height: 250px;
     width: 300px;
-    margin: 15px;
-    border-radius: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
 }
 
 .certTitle {
- color: white;
+    color: white;
 }
 
 .certDesc {
+
     color: white;
 }
 

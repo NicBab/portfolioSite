@@ -20,15 +20,16 @@
     padding: 20px;
     margin: 10px;
     border-radius: 20px;
-    height: 400px;
+    height: 425px;
     width: 300px;
     position: relative;
+    box-shadow: 6px 6px 10px rgb(55, 27, 53);
 }
 
 .itemImg {
+    height: 250px;
     width: 300px;
-    height: 280px;
-    border-radius: 10px;;
+    border-radius: 10px;
 }
 
 .itemTitle {
@@ -36,55 +37,6 @@
     cursor: pointer;
     text-align: center;
     padding: 5px;
-}
-
-/*item.desc*/
-.info {
-    color: white;
-}
-
-.cardNav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.gitIcon {
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
-    color: #B4AEE8;
-}
-.i-Icon {
-    position: absolute;
-    bottom: 30px;
-    left: 80px;
-    color: #B4AEE8;
-    cursor: pointer;
-}
-
-.visitBtn {
-    display: flex;
-    position: absolute;
-    bottom: 30px;
-    right: 40px;
-    border: none;
-    border-radius: 20px;
-    background-image: linear-gradient(to bottom right, rgb(121, 14, 222), rgb(43, 3, 81));
-    color: white;
-    padding: 10px 20px;
-    cursor: pointer;
-    letter-spacing: 1px;
-}
-
-.gitIcon:hover {
-    color: #99FEFF;
-}
-.i-Icon:hover {
-    color: #99FEFF;
-}
-.visitBtn:hover {
-    color: #99FEFF
 }
 
 @media screen and (max-width: 800px) {
@@ -99,11 +51,4 @@
         height: 400px;
         width: 300px;
     }
-
-   .visitBtn {
-    position: absolute;
-       bottom: 30px;
-       right: 20px;
-       margin-top: 15px;
-   }
 }

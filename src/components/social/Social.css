@@ -16,4 +16,7 @@
 }
 
 @media screen and (max-width: 800px) {
+    .icons {
+        display: none;
+    }
 }

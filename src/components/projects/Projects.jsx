@@ -1,18 +1,19 @@
 import "./Projects.css";
 import { portfolioData } from "../../data";
-import { ProjCardNav } from "../compIndex"
+import { ProjCardNav } from "../compIndex";
 
 const Projects = () => {
-  
   return (
     <>
-      <h1 className="pgTitle">PROJECTS</h1>
+      <h1 className="pgTitle">...CREATE & INSPIRE</h1>
       <div className="projects">
         {portfolioData.map((item, idx) => (
           <div className="itemCard" key={idx}>
             <img className="itemImg" src={item.img} alt="" />
             <div className="itemTitle">{item.title}</div>
-            <div><ProjCardNav item={item}/></div>
+            <div>
+              <ProjCardNav item={item} />
+            </div>
           </div>
         ))}
       </div>

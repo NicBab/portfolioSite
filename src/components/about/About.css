@@ -1,5 +1,5 @@
 .about {
-    height: 100%;
+   height: 770px;
     display: flex;
     background-color: rgb(196, 196, 241);
 }
@@ -18,22 +18,22 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50px;
-    left: 50px;
-    height: 350px;
-    width: 350px;
+    top: 100px;
+    left: 100px;
+    height: 500px;
+    width: 500px;
     background-color: rgb(55, 27, 53);
     border-radius: 30px;
     box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
     opacity: 0.4;
-    filter: blur(1px);
+    filter: blur(4px);
 }
 
 .aboutCard {
     top: 75px;
     left: 75px;
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     position: absolute;
     overflow: hidden;
     box-shadow: rgba(126, 126, 126, 0.24) 20px 20px 20px;
@@ -51,17 +51,11 @@
     flex: 1;
     display: flex;
     align-items: start;
-    justify-content: start;
+    justify-content: center;
     flex-direction: column;
     margin: 50px 20px;
     height: auto;
-}
-
-.a-award-img {
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
-    margin-right: 10px;
+    position: relative;
 }
 
 .a-title {
@@ -76,21 +70,25 @@
     font-weight: 300;
 }
 
-.a-award {
-    margin-top: 50px;
+.moreAboutBtn {
+    border: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 5px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, rgb(121, 14, 222), rgb(43, 3, 81));
+    color: white;
+    letter-spacing: 1px;
+    position: absolute;
+    margin-top: 20px;
+    box-shadow: 2px 2px 8px rgb(55, 27, 53);
 }
 
-.a-award-texts {
-    width: 70%;
-}
-
-.a-award-title {
-    font-weight: bold;
-    color: #555;
-    margin-bottom: 10px;
+.moreAboutBtn:hover {
+    color: #99FEFF;
 }
 
 @media screen and (max-width: 870px) {
@@ -98,14 +96,15 @@
         display: flex;
         flex-direction: column;
     }
+}
 
-    .aboutLeft {
-        display: none;
+@media screen and (max-width: 1200px) {
+    .cardBackground {
+        width: 350px;
+        height: 350px;
     }
-
-    .aboutCard,
-    .cardBackground{
-        height: 250px;
-        width: 250px;
+    .aboutCard {
+        width: 350px;
+        height: 350px;
     }
 }

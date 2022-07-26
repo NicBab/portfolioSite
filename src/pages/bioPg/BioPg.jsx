@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./BioPg.css";
-import drumPic from "../../image/IMG_3364.jpeg"
+import drumPic from "../../image/IMG_3364.jpeg";
 import { bioData } from "../../data";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const BioPg = () => {
   return (
@@ -30,9 +32,15 @@ const BioPg = () => {
           2021 and never looked back. Actively operating as a freelance front
           end and fullstack developer, creating responsive and functional web
           applications for individual artists and local small businesses!
+          <Link to="/contact">
+            <button className="contactMeBtn">
+              CONTACT ME
+              <ArrowForwardIcon />
+            </button>
+          </Link>
         </figcaption>
 
-      <h2 style={{ padding: "10px" }}>CERTIFICATIONS</h2>
+        <h2 style={{ padding: "10px" }}>CERTIFICATIONS</h2>
         <div className="certs">
           {bioData.map((item, idx) => (
             <div className="certCard" key={idx}>

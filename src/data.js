@@ -10,7 +10,7 @@ export const portfolioData = [
         img: SGphoto,
         url: "https://goofy-wright-304451.netlify.app/",
         gitURL: "https://github.com/NicBab/Scuuba-gooding-photography",
-        desc: "Colorado based photographer page.",
+        desc: "Colorado based photographer landing page using react with image carousel component.",
         cName: "project-item"
     },
     {
@@ -19,7 +19,7 @@ export const portfolioData = [
         img: Bytor,
         url: "https://optimistic-babbage-eb36e4.netlify.app/",
         gitURL: "https://github.com/NicBab/Bytor_Designs",
-        desc: "Lafayette Louisiana local Graphic design artist page",
+        desc: "Lafayette Louisiana local Graphic design artist page landing page using react",
         cName: "project-item"
     }
 ];
@@ -31,6 +31,6 @@ export const bioData = [
         id: 1,
         title: "Fullstack",
         img: LSU,
-        desc: "fullstack Certification form fullstack academy"
+        desc: "fullstack Certification from fullstack academy...html, css, with emphasis on react"
     }
 ]
