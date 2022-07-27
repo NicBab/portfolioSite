@@ -11,24 +11,26 @@
 
 
 .c {
-    height: 100vh;
+    height: 100%;
     position: relative;
 }
 
-.c-background {
+/* .c-background {
     width: 20px;
     height: 100%;
     background-color: rgb(196, 196, 241);
     position: absolute;
-}
+} */
 
 .c-wrapper {
     padding: 50px;
     display: flex;
+    height: 50vh;
 }
 
 .c-left {
     flex: 1;
+    height: 100%;
 }
 
 .c-title {
@@ -47,13 +49,15 @@
 .c-icon {
     width: 30px;
     margin-right: 20px;
+    color:rgb(43, 3, 81);
 }
 
 .c-right {
     flex: 1;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -106,4 +110,16 @@ textarea {
 
 .done-toast {
     color: green;
+}
+
+@media screen and (max-width: 870px) {
+    .c-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+        margin-bottom: 100px;
+    }
+    input {
+        width: 100%;
+    }
 }

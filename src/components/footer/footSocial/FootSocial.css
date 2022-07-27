@@ -1,0 +1,16 @@
+.footerSocial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.fs-icon {
+    display: flex;
+    cursor: pointer;
+    margin: 10px;
+    color: #B4AEE8;
+}
+.fs-icon:hover {
+    color: #99FEFF;
+}

@@ -10,9 +10,9 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePg />} />
         <Route path="/bio" element={<BioPg />} />
-        <Route path="/contact" element={<ContactPg />} />
         <Route path="/portfolio" element={<PortfolioPg />} />
         <Route path="/resume" element={<ResumePg />} />
+        <Route path="/contact" element={<ContactPg />} />
       </Routes>
       <Footer />
     </>

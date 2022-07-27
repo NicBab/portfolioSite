@@ -5,10 +5,11 @@ import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import PlaceIcon from "@mui/icons-material/Place";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import emailjs from "emailjs-com";
+import { FootSocial } from "../compIndex";
 
 const Contact = () => {
   const formRef = useRef();
-  const [done, setDone] = useState(false)
+  const [done, setDone] = useState(false);
 
   const handleEmailSubmit = (e) => {
     e.preventDefault();
@@ -22,7 +23,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true)
+          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -47,6 +48,9 @@ const Contact = () => {
             <div className="c-info-item">
               <PlaceIcon className="c-icon" /> 123 Merlot Cir., Laf, La. 70503
             </div>
+            <div className="c-info-item">
+              <FootSocial  />
+            </div>
           </div>
         </div>
         <div className="c-right">
@@ -63,7 +67,9 @@ const Contact = () => {
               <ArrowForwardIcon />
             </button>
             <div className="sent-toast">
-            {done ? "Thank you for your interest... Your email has been sent!" : null}
+              {done
+                ? "Thank you for your interest... Your email has been sent!"
+                : null}
             </div>
           </form>
         </div>

@@ -1,0 +1,20 @@
+.footLinks {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-decoration: underline;
+color: white
+}
+
+.footLink {
+    margin: 10px;
+    color: rgb(203, 203, 245);
+}
+.footLink:hover {
+    color: #99FEFF;
+}
+
+@media screen and ( max-width: 870px) {
+  
+}
