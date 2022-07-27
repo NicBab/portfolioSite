@@ -6,7 +6,23 @@
 
 .resumePage {
     background-color: rgb(196, 196, 241);
-    height: 100vh;
+    height: 100%;
     display: flex;
-    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.resPNG {
+height: 1000px;
+width: 800px;
+border-radius: 10px;
+margin: 20px 0px 20px 0px;
+box-shadow: 6px 6px 10px rgb(55, 27, 53);
+}
+
+@media screen and ( max-width: 870px) {
+    .resPNG {
+        height: 550px;
+        width: 350px;
+    }
 }

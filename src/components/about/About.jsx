@@ -40,15 +40,3 @@ const About = () => {
 
 export default About;
 
-{
-  /* <div className="a-award">
-          <img src={LSU} alt="" className="a-award-img" />
-          <div className="a-award-texts">
-            <h4 className="a-award-title">Fullstack Academy Certification</h4>
-            <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
-            </p>
-          </div>
-        </div> */
-}

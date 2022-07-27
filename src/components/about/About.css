@@ -30,11 +30,11 @@
 }
 
 .aboutCard {
+    position: absolute;
     top: 75px;
     left: 75px;
     width: 500px;
     height: 500px;
-    position: absolute;
     overflow: hidden;
     box-shadow: rgba(126, 126, 126, 0.24) 20px 20px 20px;
 }
@@ -50,7 +50,7 @@
 .aboutRight {
     flex: 1;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     margin: 50px 20px;
@@ -91,13 +91,25 @@
     color: #99FEFF;
 }
 
+/* render until screen size hits 870px */
 @media screen and (max-width: 870px) {
     .about {
         display: flex;
         flex-direction: column;
     }
+    .cardBackground {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+    .aboutCard {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
 }
 
+/* render until screen size hits 1200px */
 @media screen and (max-width: 1200px) {
     .cardBackground {
         width: 350px;

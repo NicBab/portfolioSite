@@ -15,7 +15,7 @@
     background-image: linear-gradient(to bottom right, rgb(136, 19, 246), rgb(146, 96, 193));
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     flex-direction: column;
     padding: 20px;
     margin: 10px;
