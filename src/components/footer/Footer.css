@@ -1,5 +1,6 @@
 .footer {
-    height: 50vh;
+    min-height: 500px;
+    max-height: 500px;
     background-color: #363062;
     display: flex;
     align-items: flex-start;
@@ -8,4 +9,8 @@
 
 .footerNav {
     flex-direction: column;
+}
+
+@media screen and ( max-width: 870) {
+
 }

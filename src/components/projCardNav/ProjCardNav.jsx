@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./ProjCardNav.css";
-import GitHubIcon from "@mui/icons-material/GitHub";
+// import GitHubIcon from "@mui/icons-material/GitHub";
 import { Tooltip } from "@mui/material";
-import { infoIcon } from "../../icons/iconData";
+import { infoIcon, githubIcon } from "../../icons/iconData";
 
 const ProjCardNav = ({ item }) => {
   const [info, setInfo] = useState(false);
@@ -13,7 +13,7 @@ const ProjCardNav = ({ item }) => {
   };
 
   return (
-    <div className="cardNav">
+    <div className="projCardNav">
       {info ? <p className="info">{item.desc}</p> : null}
       <Tooltip title="INFO">
         <div className="i-Icon" onClick={() => setInfo(!info)}>
@@ -22,10 +22,9 @@ const ProjCardNav = ({ item }) => {
       </Tooltip>
       <a href={item.gitURL}>
         <Tooltip title="VIEW GITHUB CODE">
-          <GitHubIcon
-            className="gitIcon"
-            onClick={() => openInNewTab(item.gitURL)}
-          />
+          <div className="git-Icon" onClick={() => openInNewTab(item.gitURL)}>
+          {githubIcon}  
+          </div>
         </Tooltip>
       </a>
       <a href={item.url}>
