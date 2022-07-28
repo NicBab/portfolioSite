@@ -31,8 +31,8 @@
 
 .c-left {
     flex: 1;
-    min-height: 400px;
-    max-height: 400px;
+    min-height: 300px;
+    max-height: 300px;
 }
 
 .c-title {
@@ -126,7 +126,7 @@ textarea {
         min-height: 900px;
     }
     .c-left {
-        margin-bottom: 50px;
+        min-height: 400px;
     }
     input,textarea {
         width: 100%;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Intro, About, Contact, Projects, Resume } from "../../components/compIndex"
+import { Intro, About, Contact, Projects,  } from "../../components/compIndex"
 
 const  HomePg = () => {
   return (
@@ -7,7 +7,7 @@ const  HomePg = () => {
         <Intro />
         <About />
         <Projects />
-        <Resume />
+        {/* <Resume /> */}
         <Contact />
     </div>
   )
