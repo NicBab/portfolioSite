@@ -84,7 +84,8 @@
     letter-spacing: 1px;
     position: absolute;
     margin-top: 20px;
-    box-shadow: 2px 2px 8px rgb(55, 27, 53);
+    box-shadow: 10px 10px 20px  rgb(161, 147, 161);
+    /* box-shadow: 2px 2px 8px rgb(55, 27, 53); */
 }
 
 .moreAboutBtn:hover {

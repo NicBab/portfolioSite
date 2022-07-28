@@ -1,5 +1,5 @@
 .bioWrapper {
-    height: 100%;
+    height: 1200px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -25,7 +25,8 @@
     color: white;
     letter-spacing: 1px;
     margin-top: 20px;
-    box-shadow: 2px 2px 8px rgb(55, 27, 53);
+    box-shadow: 10px 10px 20px  rgb(161, 147, 161);
+    /* box-shadow: 2px 2px 8px rgb(55, 27, 53); */
 }
 .contactMeBtn:hover {
     color: #99FEFF;
@@ -51,7 +52,8 @@
     height: 425px;
     width: 300px;
     position: relative;
-    box-shadow: 6px 6px 10px rgb(55, 27, 53);
+    box-shadow: 10px 10px 20px  rgb(161, 147, 161);
+    /* box-shadow: 6px 6px 10px rgb(55, 27, 53); */
 }
 
 .certImg {

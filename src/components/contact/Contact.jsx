@@ -41,7 +41,7 @@ const Contact = () => {
               <PhoneInTalkIcon className="c-icon" /> (337)-257-9202
             </div>
             <div className="c-info-item">
-              <AlternateEmailIcon className="c-icon" />{" "}
+              <AlternateEmailIcon className="c-icon" />
               stellarinnovationco@gmail.com
             </div>
             <div className="c-info-item">
