@@ -1,27 +1,8 @@
-/* .title {
-    font-size: 30px;
-    background-color: rgb(186, 186, 242);
-}
-.contactPage {
-    background-color: rgb(196, 196, 241);
-    height: 100vh;
-    display: flex;
-    position: relative;
-} */
-
-
 .c {
-    height: 100%;
+    min-height: 600px;
     position: relative;
     background-color: rgb(196, 196, 241);
 }
-
-/* .c-background {
-    width: 20px;
-    height: 100%;
-    background-color: rgb(196, 196, 241);
-    position: absolute;
-} */
 
 .c-wrapper {
     padding: 50px;
@@ -51,7 +32,7 @@
 .c-icon {
     width: 30px;
     margin-right: 20px;
-    color:rgb(43, 3, 81);
+    color: rgb(43, 3, 81);
 }
 
 .c-right {
@@ -106,8 +87,7 @@ textarea {
     color: white;
     letter-spacing: 1px;
     position: absolute;
-   
-    box-shadow: 10px 10px 20px  rgb(161, 147, 161);
+    box-shadow: 10px 10px 20px rgb(161, 147, 161);
     /* box-shadow: 2px 2px 8px rgb(55, 27, 53); */
 }
 
@@ -120,16 +100,22 @@ textarea {
 }
 
 @media screen and (max-width: 870px) {
+    .c {
+        min-height: 1000px;
+    }
     .c-wrapper {
         display: flex;
         flex-direction: column;
-        min-height: 900px;
     }
     .c-left {
-        min-height: 400px;
+        min-height: 450px;
     }
-    input,textarea {
+    input,
+    textarea {
         width: 100%;
     }
- 
+}
+
+@media screen and ( max-width: 1200px) {
+
 }

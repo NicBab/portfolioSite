@@ -1,5 +1,5 @@
 .about {
-   height: 700px;
+    height: 700px;
     display: flex;
     background-color: rgb(196, 196, 241);
 }
@@ -84,7 +84,7 @@
     letter-spacing: 1px;
     position: absolute;
     margin-top: 20px;
-    box-shadow: 10px 10px 20px  rgb(161, 147, 161);
+    box-shadow: 10px 10px 20px rgb(161, 147, 161);
     /* box-shadow: 2px 2px 8px rgb(55, 27, 53); */
 }
 
@@ -92,7 +92,7 @@
     color: #99FEFF;
 }
 
-/* render until screen size hits 870px */
+/* render until screen size hits >870px */
 @media screen and (max-width: 870px) {
     .about {
         display: flex;

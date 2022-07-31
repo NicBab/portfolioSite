@@ -39,8 +39,7 @@ const BioPg = () => {
             </button>
           </Link>
         </figcaption>
-
-        <h2 style={{ padding: "10px" }}>CERTIFICATIONS</h2>
+      <h2 style={{ padding: "10px" }}>CERTIFICATIONS</h2>
         <div className="certs">
           {bioData.map((item, idx) => (
             <div className="certCard" key={idx}>

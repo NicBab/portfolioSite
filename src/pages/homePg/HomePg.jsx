@@ -7,7 +7,6 @@ const  HomePg = () => {
         <Intro />
         <About />
         <Projects />
-        {/* <Resume /> */}
         <Contact />
     </div>
   )
