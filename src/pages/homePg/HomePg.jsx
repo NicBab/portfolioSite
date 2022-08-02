@@ -3,7 +3,7 @@ import { Intro, About, Contact, Projects,  } from "../../components/compIndex"
 
 const  HomePg = () => {
   return (
-    <div>
+    <div className="homePg">
         <Intro />
         <About />
         <Projects />

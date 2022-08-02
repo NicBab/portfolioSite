@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
-import ME from "../../image/AD9772C5-CF2B-41C2-9C6A-7D97D7EC8D35_1_105_c.jpeg";
+import drumPic from "../../image/IMG_3364.jpeg";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const About = () => {
   return (
     <div className="about">
       <div className="aboutLeft">
-        <div className="cardBackground" />
+        <div className="cardBackground"></div>
         <div className="aboutCard">
-          <img src={ME} alt="" className="aboutImg" />
+          <img src={drumPic} alt="" className="drumPic" />
         </div>
       </div>
 
@@ -20,7 +20,7 @@ const About = () => {
           It is a long established fact that a reader will be distracted by the
           readable content.
         </p>
-        <p className="aboutDesc">
+        <p className="a-desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -33,6 +33,7 @@ const About = () => {
             <ArrowForwardIcon />
           </button>
         </Link>
+
       </div>
     </div>
   );

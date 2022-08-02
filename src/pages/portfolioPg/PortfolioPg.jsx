@@ -4,7 +4,7 @@ import { Projects } from "../../components/compIndex"
 
 const PortfolioPg = () => {
   return (
-  <div>
+  <div className="portfolioPg">
     <Projects />
   </div>)
 };

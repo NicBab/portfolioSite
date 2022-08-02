@@ -1,15 +1,63 @@
-.bioWrapper {
-    height: 1200px;
+.bioPgWrapper {
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: rgb(186, 186, 242);
 }
 
+/* .bioCardBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    height: 400px;
+    width: 250px;
+    background-color: rgb(55, 27, 53);
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
+    opacity: 0.4;
+    filter: blur(4px);
+    z-index: 1;
+} */
+
+.bioDescWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.meImg {
+    box-shadow: 5px 5px 10px rgb(161, 147, 161);
+    object-fit: cover;
+    border-radius: 20px;
+    height: 400px;
+    width: 250px;
+    margin: 30px;
+    z-index: 2;
+}
+
 .bioDesc {
-    padding: 25px;
-    text-indent: 50px;
-    background-color: #E9D5CA;
+    text-indent: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 300;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.8px);
+    -webkit-backdrop-filter: blur(18.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(161, 147, 161);
+    z-index: 999;
 }
 
 .contactMeBtn {
@@ -25,19 +73,16 @@
     color: white;
     letter-spacing: 1px;
     margin-top: 20px;
-    box-shadow: 10px 10px 20px  rgb(161, 147, 161);
+    box-shadow: 5px 5px 10px rgb(161, 147, 161);
     /* box-shadow: 2px 2px 8px rgb(55, 27, 53); */
 }
+
 .contactMeBtn:hover {
     color: #99FEFF;
 }
 
-.drumPic {
-    height: 400px;
-    width: 400px;
-    float: left;
-    padding: 20px;
-    clip-path: polygon(40% 1%, 75% 0%, 100% 48%, 63% 95%, 25% 100%, 0 49%);
+.certs {
+    margin: 20px;
 }
 
 .certCard {
@@ -52,7 +97,7 @@
     height: 425px;
     width: 300px;
     position: relative;
-    box-shadow: 10px 10px 20px  rgb(161, 147, 161);
+    box-shadow: 10px 10px 20px rgb(161, 147, 161);
     /* box-shadow: 6px 6px 10px rgb(55, 27, 53); */
 }
 
@@ -68,23 +113,22 @@
 }
 
 .certDesc {
-
     color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 870px) {
+    .bioDesc {
+        width: 300px;
+    }
     .certs {
         display: flex;
         flex-wrap: wrap;
     }
+}
 
-    .bioDesc {
-        max-width: 100%;
-        padding: 15px;
-    }
-
-    .drumPic {
-        max-width: 300px;
-        max-height: 300px;
+@media screen and (max-width: 1000px) {
+    .bioDescWrapper {
+        display: flex;
+        flex-direction: column;
     }
 }

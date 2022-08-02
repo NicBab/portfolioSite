@@ -7,10 +7,10 @@
     background-color: #363062;
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 1000;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 870px) {
     .topBar {
         justify-content: space-between;
     }
