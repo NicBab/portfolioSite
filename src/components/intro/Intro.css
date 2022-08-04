@@ -1,7 +1,11 @@
+
 .intro {
-    height: 500px;
+    height: 450px;
     display: flex;
-    background-color: #E9D5CA;
+    background-image: url('../../image/abstract_network_purple.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #E9D5CA; */
 }
 
 .introLeft {
@@ -9,20 +13,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 40px;
 }
 
-/* 
+
 .introLeftWrapper {
-    padding: 20px;
-    height: 100%;
-    background-color: rgb(163, 170, 106);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-} */
+    padding: 15px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
 
 .introHello {
+    color: rgb(220, 158, 251);
     font-size: 30px;
     font-weight: 300;
     position: relative;
@@ -30,6 +36,7 @@
 }
 
 .introName {
+    color: #99FEFF;
     font-size: 60px;
     position: relative;
     z-index: 9;
@@ -48,8 +55,11 @@
 }
 
 .introDescription {
+    color: rgb(235, 206, 250);
+    font-size: 14pt;;
     margin-top: 20px;
     position: relative;
+    text-indent: 15px;
     z-index: 9;
 }
 
@@ -68,7 +78,7 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(98, 31, 160);
+    color: #99FEFF;
     display: flex;
     align-items: center;
 }
@@ -113,6 +123,9 @@
 }
 
 @media screen and ( max-width: 620px) {
+    .introLeft {
+        padding: 20px;
+    }
     .introImg {
         display: none;
     }

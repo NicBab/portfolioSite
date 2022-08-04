@@ -2,6 +2,7 @@ import React from "react";
 import "./Intro.css";
 import sipPic from "../../image/17037709-5A5F-41F2-A024-3EF7A2E76EA1_1_105_c.jpeg";
 
+
 const Intro = () => {
   return (
     <div className="intro">
@@ -17,9 +18,7 @@ const Intro = () => {
             </div>
           </div>
           <div className="introDescription">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
+            Specializing in creative, stylish, functional modern websites, web services and E-commerce.
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 .c {
     min-height: 600px;
     position: relative;
+    /* background-color: rgb(201, 201, 245); */
     background-color: rgb(196, 196, 241);
 }
 
@@ -88,7 +89,6 @@ textarea {
     letter-spacing: 1px;
     position: absolute;
     box-shadow: 10px 10px 20px rgb(161, 147, 161);
-    /* box-shadow: 2px 2px 8px rgb(55, 27, 53); */
 }
 
 .sendEmailBtn:hover {
@@ -114,8 +114,4 @@ textarea {
     textarea {
         width: 100%;
     }
-}
-
-@media screen and ( max-width: 1200px) {
-
 }

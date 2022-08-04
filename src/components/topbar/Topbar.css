@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    background-color: #363062;
+    /* background-color: #363062; */
+    background-color: rgb(82, 75, 175);
     position: sticky;
     top: 0;
     z-index: 1000;

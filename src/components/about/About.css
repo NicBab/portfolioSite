@@ -2,6 +2,8 @@
     height: 700px;
     display: flex;
     background-color: rgb(196, 196, 241);
+    /* background-color: rgb(201, 201, 245); */
+    /* background-image: linear-gradient(to bottom right,  rgb(190, 190, 236), rgb(201, 201, 245), rgb(190, 190, 236)); */
 }
 
 .aboutLeft {
@@ -68,16 +70,6 @@
 
 .a-desc {
     font-weight: 300;
-    /* background: rgba(255, 255, 255, 0.39);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(18.8px);
-    -webkit-backdrop-filter: blur(18.8px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 20px;
-    margin: 50px;
-    border-radius: 10px;
-    box-shadow: 8px 8px 20px rgb(161, 147, 161); */
 }
 
 .moreAboutBtn {
@@ -95,7 +87,6 @@
     position: absolute;
     margin-top: 20px;
     box-shadow: 10px 10px 20px rgb(161, 147, 161);
-    /* box-shadow: 2px 2px 8px rgb(55, 27, 53); */
 }
 
 .moreAboutBtn:hover {
@@ -107,15 +98,19 @@
     .about {
         display: flex;
         flex-direction: column;
+        min-height: 800px
     }
+
     .aboutLeft {
         min-height: 350px;
     }
+
     .cardBackground {
         position: absolute;
         top: 30px;
         left: 20px;
     }
+
     .aboutCard {
         position: absolute;
         top: 20px;
@@ -129,6 +124,7 @@
         width: 350px;
         height: 350px;
     }
+
     .aboutCard {
         width: 350px;
         height: 350px;

@@ -13,7 +13,6 @@ const About = () => {
           <img src={drumPic} alt="" className="drumPic" />
         </div>
       </div>
-
       <div className="aboutRight">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
@@ -26,18 +25,15 @@ const About = () => {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
         </p>
-
         <Link to="/bio">
           <button className="moreAboutBtn">
             MORE ABOUT ME
             <ArrowForwardIcon />
           </button>
         </Link>
-
       </div>
     </div>
   );
 };
 
 export default About;
-
