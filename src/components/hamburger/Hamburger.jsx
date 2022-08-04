@@ -14,7 +14,7 @@ const Hamburger = () => {
     <div className="burgerNav">
       <IconContext.Provider value={{ color: "#22b685" }}>
         <div className="nav">
-          <Link to="#" className="burger" >
+          <Link to="#" className="burger">
             <MenuOutlinedIcon sx={{ fontSize: "35px" }} onClick={showMenu} />
           </Link>
           <nav className={menu ? "nav-menu active" : "nav-menu"}>

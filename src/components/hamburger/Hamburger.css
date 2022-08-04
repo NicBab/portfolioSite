@@ -6,7 +6,7 @@
 
 .burger {
     display: none;
-    }
+}
 
 /*close icon div*/
 .nav-toggle {
@@ -82,6 +82,7 @@
     list-style: none;
     height: 40px;
 }
+
 .menu-text a:active {
     color: aqua;
 }
@@ -110,5 +111,4 @@ span {
         margin: 1rem;
         color: rgb(251, 250, 250);
     }
- 
 }

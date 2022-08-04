@@ -4,6 +4,9 @@
     align-items: center;
     flex-direction: column;
     background-color: rgb(186, 186, 238);
+    background-image: url('../../image/abstract_network_purple.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bioDescWrapper {
@@ -13,18 +16,15 @@
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
-    background-image: url('../../image/abstract_network_purple.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .meImg {
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 6% 50%, 0% 0%);
-    /* box-shadow: 10px 10px 20px rgb(161, 147, 161); */
     object-fit: cover;
     height: 400px;
     width: 250px;
     margin: 30px;
+    opacity: .5;
     z-index: 2;
 }
 
@@ -36,18 +36,14 @@
     font-weight: 400;
     max-width: 800px;
     background-image: linear-gradient(to bottom right,  rgb(190, 190, 236), rgb(201, 201, 245), rgb(190, 190, 236));
-    background-color: rgb(193, 193, 235);
     padding: 20px;
-
-background: rgba(255, 255, 255, 0.2);
+background: rgba(128, 128, 128, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(10px);
+backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
-
 box-shadow: 2px 2px 15px rgb(161, 147, 161);
-
     z-index: 999;
 }
 
@@ -65,7 +61,6 @@ box-shadow: 2px 2px 15px rgb(161, 147, 161);
     letter-spacing: 1px;
     margin-top: 20px;
     box-shadow: 2px 2px 5px rgb(161, 147, 161);
-    /* box-shadow: 2px 2px 8px rgb(55, 27, 53); */
 }
 
 .contactMeBtn:hover {
@@ -76,19 +71,28 @@ box-shadow: 2px 2px 15px rgb(161, 147, 161);
     margin: 20px;
 }
 
+.certificationsHeader {
+    font-size: 20pt;
+    color: rgb(227, 182, 250);
+}
+
 .certCard {
-    background-image: linear-gradient(to bottom right, rgb(136, 19, 246), rgb(146, 96, 193));
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     padding: 20px;
     margin: 10px;
-    border-radius: 10px;
     height: 425px;
     width: 300px;
     position: relative;
-    box-shadow: 10px 10px 20px rgb(161, 147, 161);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 12px rgb(161, 147, 161);
 }
 
 .certImg {
@@ -110,6 +114,9 @@ box-shadow: 2px 2px 15px rgb(161, 147, 161);
     .bioDesc {
         width: 300px;
     }
+    .meImg {
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 870px) {
@@ -117,7 +124,6 @@ box-shadow: 2px 2px 15px rgb(161, 147, 161);
         display: flex;
         flex-direction: column;
     }
- 
     .certs {
         display: flex;
         flex-wrap: wrap;

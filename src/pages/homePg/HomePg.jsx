@@ -1,15 +1,15 @@
-import React from 'react'
-import { Intro, About, Contact, Projects,  } from "../../components/compIndex"
+import React from "react";
+import { Intro, About, Contact, Projects } from "../../components/compIndex";
 
-const  HomePg = () => {
+const HomePg = () => {
   return (
     <div className="homePg">
-        <Intro />
-        <About />
-        <Projects />
-        <Contact />
+      <Intro />
+      <About />
+      <Projects />
+      <Contact />
     </div>
-  )
-}
+  );
+};
 
-export default  HomePg
+export default HomePg;

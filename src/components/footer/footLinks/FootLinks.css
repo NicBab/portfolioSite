@@ -1,10 +1,10 @@
 .footLinks {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-text-decoration: underline;
-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: underline;
+    color: white;
 }
 
 .footLink {
@@ -13,10 +13,9 @@ color: white;
     font-size: 12px;
     font-weight: 200;
 }
+
 .footLink:hover {
     color: #99FEFF;
 }
 
-@media screen and ( max-width: 870px) {
-  
-}
+@media screen and (max-width: 870px) {}

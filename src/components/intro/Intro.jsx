@@ -8,7 +8,7 @@ const Intro = () => {
     <div className="intro">
       <div className="introLeft">
         <div className="introLeftWrapper">
-          <h2 className="introHello">Hello, My name is</h2>
+          <h2 className="introHello">Hello, My name is,</h2>
           <h1 className="introName">Nick Babineaux</h1>
           <div className="introTitle">
             <div className="introTitleWrapper">

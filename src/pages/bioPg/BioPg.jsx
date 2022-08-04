@@ -9,20 +9,7 @@ const BioPg = () => {
   return (
     <>
       <div className="bioPgWrapper">
-
-      <h2 style={{ padding: "10px" }}>CERTIFICATIONS</h2>
-        <div className="certs">
-          {bioData.map((item, idx) => (
-            <div className="certCard" key={idx}>
-              <img src={item.img} alt="" className="certImg" />
-              <div className="certTitle">{item.title}</div>
-              <div className="certDesc">{item.desc}</div>
-            </div>
-          ))}
-        </div>
-
         <div className="bioDescWrapper">
-          {/* <div className="bioCardBackground" /> */}
           <img src={ME} alt="" className="meImg" />
           <figcaption className="bioDesc">
             Hi all! My name is Nic Babineaux, I am currently located in
@@ -55,7 +42,16 @@ const BioPg = () => {
             </Link>
           </figcaption>
         </div>
-  
+        <h2 className="certificationsHeader">CERTIFICATIONS</h2>
+        <div className="certs">
+          {bioData.map((item, idx) => (
+            <div className="certCard" key={idx}>
+              <img src={item.img} alt="" className="certImg" />
+              <div className="certTitle">{item.title}</div>
+              <div className="certDesc">{item.desc}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./ProjCardNav.css";
-// import GitHubIcon from "@mui/icons-material/GitHub";
 import { Tooltip } from "@mui/material";
 import { infoIcon, githubIcon } from "../../icons/iconData";
 
@@ -23,7 +22,7 @@ const ProjCardNav = ({ item }) => {
       <a href={item.gitURL}>
         <Tooltip title="VIEW GITHUB CODE">
           <div className="git-Icon" onClick={() => openInNewTab(item.gitURL)}>
-          {githubIcon}  
+            {githubIcon}
           </div>
         </Tooltip>
       </a>

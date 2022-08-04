@@ -1,14 +1,10 @@
 /* {item.desc} */
 .info {
-    /* color: #99FEFF; */
     color: rgb(227, 182, 250);
     border-radius: 5px;
-    
     padding: 5px;
     font-weight: 300;
     font-size: 12pt;
-    /* box-shadow: inset 0 0 200px rgba(255, 255, 255, .5);
-    filter: blur(1px); */
 }
 
 .i-Icon {
@@ -18,6 +14,7 @@
     color: #B4AEE8;
     cursor: pointer;
 }
+
 .git-Icon {
     position: absolute;
     bottom: 30px;
@@ -44,12 +41,11 @@
 .git-Icon:hover {
     color: #99FEFF;
 }
+
 .i-Icon:hover {
     color: #99FEFF;
 }
+
 .visitBtn:hover {
     color: #99FEFF;
-}
-
-@media screen and ( max-width: 800px) {
 }
