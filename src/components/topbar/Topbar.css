@@ -9,7 +9,8 @@
     background-color: #1D1581ff;
     background-color: #9322EEff;
     background-color: #5A20CFff; */
-    background-image: linear-gradient(to right, #231E63ff, #5A20CFff );
+    background-image: linear-gradient(to right, #1D1581ff, #5A20CFff );
+    /* background-image: linear-gradient(to right, #1D1581ff,  #231E63ff); */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -21,7 +22,7 @@
     }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1350px) {
     .topBar {
         display: flex;
         align-items: center;

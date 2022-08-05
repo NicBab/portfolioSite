@@ -5,7 +5,6 @@ import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import PlaceIcon from "@mui/icons-material/Place";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import emailjs from "emailjs-com";
-import { FootSocial } from "../compIndex";
 
 const Contact = () => {
   const formRef = useRef();

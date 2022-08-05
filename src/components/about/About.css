@@ -1,8 +1,10 @@
 .about {
-    height: 700px;
+    min-height: 700px;
     display: flex;
     background-color: rgb(196, 196, 241);
-    border-bottom: 1px solid rgb(189, 189, 248);
+    border-bottom: 1px solid rgba(208, 205, 251, 0.169);
+    background-image: url("../../image/digital_vector_circuit_lowContrast.jpg");
+    background-size: cover;
 }
 
 .aboutLeft {
@@ -59,6 +61,17 @@
     position: relative;
 }
 
+.aboutDescWrapper {
+    padding: 20px;
+    background: rgba(126, 119, 248, 0.169);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: -14px 14px 18px rgb(171, 167, 171);
+}
+
 .a-title {
     font-weight: 400;
     color: rgb(30, 1, 58);
@@ -85,7 +98,7 @@
     color: white;
     letter-spacing: 1px;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 50px;
     box-shadow: 10px 10px 20px rgb(161, 147, 161);
 }
 
@@ -94,24 +107,27 @@
 }
 
 /* render until screen size hits >870px */
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 850px) {
     .about {
         display: flex;
         flex-direction: column;
-        min-height: 800px
+        min-height: 950px;
     }
     .aboutLeft {
         min-height: 350px;
     }
     .cardBackground {
         position: absolute;
-        top: 30px;
+        top: 40px;
         left: 20px;
     }
     .aboutCard {
         position: absolute;
-        top: 20px;
+        top: 30px;
         left: 10px;
+    }
+    .aboutRight {
+        justify-content: flex-start;
     }
 }
 

@@ -1,7 +1,8 @@
 .c {
     min-height: 600px;
     position: relative;
-    background-color: rgb(196, 196, 241);
+    background-color: rgba(126, 119, 248, 0.169);
+    border-bottom: rgba(208, 205, 251, 0.169);
 }
 
 .c-wrapper {

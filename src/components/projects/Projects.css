@@ -3,12 +3,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(196, 196, 241);
+    /* background-color: rgb(196, 196, 241); */
     /* background-color: rgb(186, 186, 238); */
     /* background-image: url('../../image/abstract_network_purple.jpg'); */
     /* background-repeat: no-repeat;
     background-size: cover; */
-    border-bottom: 1px solid rgb(189, 189, 248);
+
+    border-bottom: 1px solid rgba(208, 205, 251, 0.169);
 }
 
 .pgTitle {
@@ -26,23 +27,24 @@
 }
 
 .itemCard {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(126, 119, 248, 0.169);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    border: 1px solid rgba(255, 255, 255, 0.3);
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
     height: 425px;
     width: 300px;
     position: relative;
     box-shadow: 1px 1px 10px rgb(88, 84, 88);
-    background-color: #9322EEff;
+    /* background-color: #9322EEff; */
+
     /* background-image: linear-gradient(to bottom, #5A20CFff, #9322EEff ); */
     
 }
@@ -50,8 +52,8 @@
 .itemImg {
     height: 250px;
     width: 300px;
-    border-radius: 10px;
-    border: 1px solid rgb(123, 102, 143);
+    border-radius: 5px;
+    /* border: 1px solid rgb(123, 102, 143); */
 }
 
 .itemTitle {
