@@ -1,7 +1,7 @@
 import React from "react";
 import "./Intro.css";
 import sipPic from "../../image/17037709-5A5F-41F2-A024-3EF7A2E76EA1_1_105_c.jpeg";
-
+import { FootSocial } from "../compIndex"
 
 const Intro = () => {
   return (
@@ -19,6 +19,9 @@ const Intro = () => {
           </div>
           <div className="introDescription">
             Specializing in creative, stylish, functional modern websites, web services and E-commerce.
+            <div className="i-desc-social">
+              <FootSocial/>
+            </div>
           </div>
         </div>
       </div>

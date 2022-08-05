@@ -14,7 +14,7 @@
     align-items: center;
     flex-direction: row;
     padding: 20px;
-    margin: 20px;
+    margin: 40px;
     border-radius: 20px;
 }
 
@@ -24,26 +24,25 @@
     height: 400px;
     width: 250px;
     margin: 30px;
-    opacity: .5;
     z-index: 2;
 }
 
 .bioDesc {
-    color: rgb(227, 182, 250);
+    color: rgb(249, 237, 254);
     text-indent: 20px;
     letter-spacing: 1px;
-    line-height: 1.5;
-    font-weight: 400;
+    line-height: 2;
+    font-weight: 300;
     max-width: 800px;
     background-image: linear-gradient(to bottom right,  rgb(190, 190, 236), rgb(201, 201, 245), rgb(190, 190, 236));
     padding: 20px;
-background: rgba(128, 128, 128, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
-box-shadow: 2px 2px 15px rgb(161, 147, 161);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* box-shadow: 1px 1px 8px rgb(161, 147, 161); */
     z-index: 999;
 }
 
@@ -68,12 +67,14 @@ box-shadow: 2px 2px 15px rgb(161, 147, 161);
 }
 
 .certs {
-    margin: 20px;
+    margin: 10px;
 }
 
 .certificationsHeader {
-    font-size: 20pt;
+    font-size: 16pt;
+    font-weight: 300;
     color: rgb(227, 182, 250);
+    margin-top: 10px;
 }
 
 .certCard {
@@ -81,18 +82,18 @@ box-shadow: 2px 2px 15px rgb(161, 147, 161);
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     margin: 10px;
     height: 425px;
     width: 300px;
     position: relative;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 2px 2px 12px rgb(161, 147, 161);
+    box-shadow: 1px 1px 8px rgb(161, 147, 161);
 }
 
 .certImg {
@@ -113,9 +114,6 @@ box-shadow: 2px 2px 15px rgb(161, 147, 161);
 @media screen and (max-width: 585px) {
     .bioDesc {
         width: 300px;
-    }
-    .meImg {
-        opacity: 1;
     }
 }
 

@@ -1,7 +1,7 @@
 .icons {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .icon {
@@ -9,6 +9,7 @@
     cursor: pointer;
     margin: 5px;
     color: #B4AEE8;
+    /* color: rgb(249, 237, 254); */
 }
 
 .icon:hover {

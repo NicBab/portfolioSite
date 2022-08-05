@@ -3,15 +3,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-decoration: underline;
     color: white;
+    margin-top: 10px;
 }
 
 .footLink {
     margin: 10px;
     color: rgb(203, 203, 245);
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 600;
 }
 
 .footLink:hover {

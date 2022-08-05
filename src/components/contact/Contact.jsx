@@ -5,6 +5,7 @@ import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import PlaceIcon from "@mui/icons-material/Place";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import emailjs from "emailjs-com";
+import { FootSocial } from "../compIndex";
 
 const Contact = () => {
   const formRef = useRef();
@@ -46,7 +47,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <PlaceIcon className="c-icon" /> 123 Merlot Cir., Laf, La. 70503
-            </div>
+            </div>     
           </div>
         </div>
         <div className="c-right">

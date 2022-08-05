@@ -1,5 +1,5 @@
 .intro {
-    height: 450px;
+    height: 500px;
     display: flex;
     background-image: url('../../image/abstract_network_purple.jpg');
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding: 50px;
 }
 
 .introLeftWrapper {
@@ -55,11 +55,18 @@
 .introDescription {
     color: rgb(235, 206, 250);
     font-size: 14pt;
-    ;
     margin-top: 20px;
     position: relative;
     text-indent: 15px;
     z-index: 9;
+}
+
+.i-desc-social{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 @keyframes move {
@@ -106,6 +113,9 @@
     .introImg {
         width: 250px;
         height: 550px;
+    }
+    .i-desc-social {
+        justify-content: center;
     }
 }
 
