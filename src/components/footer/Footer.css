@@ -1,8 +1,10 @@
 .footer {
     min-height: 60vh;
     /* background-image: linear-gradient(to bottom, rgb(160, 91, 225), rgb(136, 19, 246)); */
-    background-image: linear-gradient(to right, #1D1581ff,  #231E63ff);
+    /* background-image: linear-gradient(to right, #1D1581ff,  #231E63ff);
+    background-image: linear-gradient(to left, #1D1581ff, #5A20CFff ); */
     /* background-color: #231E63ff; */
+    background-image: linear-gradient(to bottom,#6650F2, #6619A5);
     display: flex;
     align-items: flex-start;
     justify-content: center;

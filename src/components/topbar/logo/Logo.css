@@ -1,0 +1,12 @@
+.topLogo {
+    align-self: flex-end;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}
+
+.logoImg {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}

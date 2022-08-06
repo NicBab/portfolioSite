@@ -4,13 +4,7 @@
     align-items: center;
     justify-content: flex-end;
     flex-direction: row;
-    /* background-image: linear-gradient(to bottom right, rgb(136, 19, 246), rgb(160, 91, 225)); */
-    /* background-color: #231E63ff;
-    background-color: #1D1581ff;
-    background-color: #9322EEff;
-    background-color: #5A20CFff; */
-    background-image: linear-gradient(to right, #1D1581ff, #5A20CFff );
-    /* background-image: linear-gradient(to right, #1D1581ff,  #231E63ff); */
+    background-image: linear-gradient(to right, #1F1BA6,#6650F2, #6619A5);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -22,7 +16,7 @@
     }
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 2000px) {
     .topBar {
         display: flex;
         align-items: center;
