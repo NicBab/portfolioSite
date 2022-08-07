@@ -1,7 +1,10 @@
 .c {
     min-height: 600px;
     position: relative;
-    background-color: rgba(126, 119, 248, 0.169);
+    /* background-color: rgba(126, 119, 248, 0.169); */
+        /* background-image: url("../../image/digital_vector_circuit_lowContrast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
     /* border-bottom: rgba(208, 205, 251, 0.169); */
    
 }
@@ -67,7 +70,7 @@ input {
     padding-left: 10px;
     font-size: 12px;
     border-radius: 30px;
-    box-shadow:  #551CA6 1px 1px 1px inset;
+    box-shadow:  #1F1BA6 1px 1px 1px inset;
 
 
 }
@@ -86,7 +89,7 @@ textarea {
     border: none;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 5px;
     width: 100px;
     border-radius: 30px;

@@ -12,7 +12,7 @@ const NavLinks = () => {
         BIO
       </Link>
       <Link to="/portfolio" className="portfolio">
-        WORK
+       PORTFOLIO
       </Link>
       <Link to="/resume" className="resume">
         RESUME

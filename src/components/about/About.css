@@ -1,11 +1,11 @@
 .about {
     min-height: 700px;
     display: flex;
-    background-color: rgb(196, 196, 241);
+    /* background-color: rgb(196, 196, 241); */
     /* border-bottom: 1px solid rgb(232, 232, 244); */
-    background-image: url("../../image/digital_vector_circuit_lowContrast.jpg");
+    /* background-image: url("../../image/digital_vector_circuit_lowContrast.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     /* border-bottom: 1px solid rgb(232, 232, 244); */
     
 }
@@ -25,7 +25,7 @@
     align-items: center;
     position: absolute;
     top: 100px;
-    left: 100px;
+    left: 150px;
     height: 500px;
     width: 500px;
     background-color: rgb(55, 27, 53);
@@ -37,8 +37,8 @@
 
 .aboutCard {
     position: absolute;
-    top: 75px;
-    left: 75px;
+    top: 85px;
+    left: 135px;
     width: 500px;
     height: 500px;
     overflow: hidden;
@@ -59,17 +59,18 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    margin: 50px 20px;
+    
     height: auto;
     position: relative;
 }
 
 .aboutDescWrapper {
+    margin: 200px 30px 0px 10px;
     padding: 20px;
     background: rgba(126, 119, 248, 0.169);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: -7px 7px 27px 1px rgb(161, 147, 161);
@@ -92,7 +93,7 @@
     border: none;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 5px;
     width: 200px;
     border-radius: 30px;
@@ -101,7 +102,9 @@
     color: white;
     letter-spacing: 1px;
     position: absolute;
-    margin-top: 50px;
+    bottom: 0;
+    right: 0;
+    margin: 100px 50px 0px 0px;
     box-shadow: 0px 10px 20px rgb(161, 147, 161);
 }
 
@@ -121,15 +124,16 @@
     }
     .cardBackground {
         position: absolute;
-        top: 40px;
+        top: 110px;
         left: 20px;
     }
     .aboutCard {
         position: absolute;
-        top: 30px;
+        top: 100px;
         left: 10px;
     }
     .aboutRight {
+        
         justify-content: flex-start;
     }
 }
