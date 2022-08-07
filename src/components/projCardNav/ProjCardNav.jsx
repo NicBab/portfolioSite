@@ -13,12 +13,14 @@ const ProjCardNav = ({ item }) => {
 
   return (
     <div className="projCardNav">
+      
       {info ? <p className="info">{item.desc}</p> : null}
       <Tooltip title="INFO">
         <div className="i-Icon" onClick={() => setInfo(!info)}>
           {infoIcon}
         </div>
       </Tooltip>
+
       <a href={item.gitURL}>
         <Tooltip title="VIEW GITHUB CODE">
           <div className="git-Icon" onClick={() => openInNewTab(item.gitURL)}>
@@ -26,6 +28,7 @@ const ProjCardNav = ({ item }) => {
           </div>
         </Tooltip>
       </a>
+
       <a href={item.url}>
         <button className="visitBtn" onClick={() => openInNewTab(item.url)}>
           VISIT PAGE

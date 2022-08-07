@@ -1,19 +1,12 @@
 .c {
     min-height: 600px;
     position: relative;
-    /* background-color: rgba(126, 119, 248, 0.169); */
-        /* background-image: url("../../image/digital_vector_circuit_lowContrast.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; */
-    /* border-bottom: rgba(208, 205, 251, 0.169); */
-   
 }
 
 .c-wrapper {
     padding: 50px;
     display: flex;
     height: 450px;
-
 }
 
 .c-left {
@@ -103,6 +96,7 @@ textarea {
 
 .sendEmailBtn:hover {
     color: #99FEFF;
+    transform: scale(1.01);
 }
 
 .done-toast {

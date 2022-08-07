@@ -1,6 +1,7 @@
 import SGphoto from "./image/sgPhotoImg copy.png";
 import Bytor from "./image/bytorDesignsImg.png";
 import LSU from "./image/16 LSU 2101 NICHOLAS .pdf-1.jpg";
+import abstractNetworkPurple from "./image/abstract_network_purple.jpg"
 
 //projects map
 export const portfolioData = [
@@ -20,6 +21,15 @@ export const portfolioData = [
     url: "https://optimistic-babbage-eb36e4.netlify.app/",
     gitURL: "https://github.com/NicBab/Bytor_Designs",
     desc: "Lafayette Louisiana local Graphic design artist landing page using react",
+    cName: "project-item",
+  },
+  {
+    id: 3,
+    title: "Test Design",
+    img: abstractNetworkPurple,
+    url: "",
+    gitURL: "https://github.com/NicBab",
+    desc: "testing durability of slider map",
     cName: "project-item",
   },
 ];

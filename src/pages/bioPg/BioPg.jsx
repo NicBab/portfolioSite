@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./BioPg.css";
-// import ME from "../../image/AD9772C5-CF2B-41C2-9C6A-7D97D7EC8D35_1_105_c.jpeg";
 import { bioData } from "../../data";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
@@ -9,7 +8,7 @@ const BioPg = () => {
   return (
     <>
       <div className="bioPgWrapper">
-      <h2 className="certificationsHeader">CERTIFICATIONS</h2>
+        {/* <h2 className="certificationsHeader">CERTIFICATIONS</h2> */}
         <div className="certs">
           {bioData.map((item, idx) => (
             <div className="certCard" key={idx}>
@@ -52,7 +51,6 @@ const BioPg = () => {
             </Link>
           </figcaption>
         </div>
-       
       </div>
     </>
   );

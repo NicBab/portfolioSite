@@ -18,7 +18,7 @@ const Intro = () => {
             </div>
           </div>
           <div className="introDescription">
-            Specializing in creative, stylish, functional modern websites, web services and E-commerce.
+            Creative and stylish modern web services and E-commerce.
             <div className="i-desc-social">
               <FootSocial/>
             </div>

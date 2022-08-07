@@ -7,7 +7,7 @@ const HomePg = () => {
     <div className="homePg">
       <Intro />
       <About />
-      <Slider/>
+      <Slider />
       <Contact />
     </div>
   );

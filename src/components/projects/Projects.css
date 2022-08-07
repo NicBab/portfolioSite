@@ -4,9 +4,6 @@
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid rgb(232, 232, 244);
-    /* background-image: url("../../image/digital_vector_circuit_lowContrast.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; */
     z-index: -1000;
 }
 
@@ -23,8 +20,7 @@
     align-items: center;
     justify-content: center;
     align-self: center;
-    /* background-image: linear-gradient(to right, #1F1BA6,#6650F2, #6619A5); */
-    background: rgba(126, 119, 248, 0.169);
+    background-image: linear-gradient(to top right, #201ba624,#6650f227, #6619a51d);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3px);
@@ -36,10 +32,8 @@
 }
 
 .itemCard {
-    background-image: linear-gradient( to bottom right, rgba(124, 123, 123, 0.776), rgba(209, 207, 207, 0.776));
+    background-image: linear-gradient( to bottom right, rgba(124, 123, 123, 0.448), rgba(209, 207, 207, 0.776));
     border-radius: 10px;
-    /* backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(5px); */
     display: flex;
     align-items: center;
     justify-content: flex-start;

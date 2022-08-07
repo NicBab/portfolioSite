@@ -35,7 +35,7 @@ const Contact = () => {
       <div className="c-background"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project!</h1>
+          <h1 className="c-title">Let's Chat!</h1>
           <div className="c-info">
             <div className="c-info-item">
               <PhoneInTalkIcon className="c-icon" /> (337)-257-9202
@@ -46,12 +46,13 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <PlaceIcon className="c-icon" /> 123 Merlot Cir., Laf, La. 70503
-            </div>     
+            </div>
           </div>
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>Get in touch!</b> Available for freelancing and hire!
+            <b>Interested?... Get in touch!</b> Available for freelancing and
+            hire!
           </p>
           <form ref={formRef} onSubmit={handleEmailSubmit} className="c-form">
             <input type="text" placeholder="Name" name="user_name" />

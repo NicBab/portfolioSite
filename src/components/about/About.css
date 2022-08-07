@@ -1,13 +1,7 @@
 .about {
     min-height: 700px;
     display: flex;
-    /* background-color: rgb(196, 196, 241); */
-    /* border-bottom: 1px solid rgb(232, 232, 244); */
-    /* background-image: url("../../image/digital_vector_circuit_lowContrast.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; */
-    /* border-bottom: 1px solid rgb(232, 232, 244); */
-    
+    border-bottom: 1px solid rgba(232, 232, 244, 0.451);
 }
 
 .aboutLeft {
@@ -67,13 +61,12 @@
 .aboutDescWrapper {
     margin: 200px 30px 0px 10px;
     padding: 20px;
-    background: rgba(126, 119, 248, 0.169);
+    background-image: linear-gradient(to bottom right, #201ba624,#6650f227, #6619a51d);
     border-radius: 10px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: -7px 7px 27px 1px rgb(161, 147, 161);
+    border: 1px solid rgba(134, 133, 133, 0.212);
+    box-shadow: -7px 7px 10px rgb(161, 147, 161);
 }
 
 .a-title {
@@ -102,14 +95,15 @@
     color: white;
     letter-spacing: 1px;
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     right: 0;
     margin: 100px 50px 0px 0px;
-    box-shadow: 0px 10px 20px rgb(161, 147, 161);
+    box-shadow: 5px 10px 20px 5px rgb(161, 147, 161);
 }
 
 .moreAboutBtn:hover {
     color: #99FEFF;
+    transform: scale(1.01);
 }
 
 /* render until screen size hits >870px */
