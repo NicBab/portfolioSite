@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import "./ProjSlideNav.css";
+import "./ProjDisNav.css";
 import { Tooltip } from "@mui/material";
 import { infoIcon, githubIcon, searchGlass } from "../../../icons/iconData";
 import styled from "styled-components";
+import Popover from "@mui/material/Popover";
+import Typography from "@mui/material/Typography";
 
 const ImgSlideIcons = styled.div`
   opacity: 0;
@@ -19,7 +21,6 @@ const ImgSlideIcons = styled.div`
   transition: all 0.5s ease;
   cursor: pointer;
   border-radius: 5px;
-
 `;
 
 const Container = styled.div`
@@ -36,13 +37,11 @@ const Container = styled.div`
   }
 `;
 
-
 const Img = styled.img`
-  height: 75%;
+  height: 100%;
   width: 100%;
   z-index: 2;
   border-radius: 5px;
-  
 `;
 
 const SlideIcon = styled.div`
@@ -58,15 +57,26 @@ const SlideIcon = styled.div`
   color: black;
 
   &:hover {
-    background-color: #e9f5f5;
+    background-color:#8d8ad5;
     transform: scale(1.1);
   }
 `;
 
+const InfoText = styled.p``;
 
+const ProjDisNav = ({ item }) => {
+  const [anchorEl, setAnchorEl] = useState(null);
 
-const ProjSlideNav = ({ item }) => {
-  const [info, setInfo] = useState(false);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? "simple-popover" : undefined;
 
   const openInNewTab = (url, gitURL) => {
     const newWindow = window.open(url, gitURL, "_blank", "noreferrer");
@@ -75,13 +85,17 @@ const ProjSlideNav = ({ item }) => {
 
   return (
     <Container>
-      <Img src={item.img}/>
+      <Img src={item.img} />
       <ImgSlideIcons>
-        {info ? <span className="slideImgInfo">{item.desc}</span> : null}
         <Tooltip title="INFO">
-          <SlideIcon onClick={() => setInfo(!info)}>{infoIcon}</SlideIcon>
+          <SlideIcon
+            aria-describedby={id}
+            variant="contained"
+            onClick={handleClick}
+          >
+            {infoIcon}
+          </SlideIcon>
         </Tooltip>
-
         <a href={item.gitURL}>
           <Tooltip title="VIEW GITHUB CODE">
             <SlideIcon onClick={() => openInNewTab(item.gitURL)}>
@@ -89,7 +103,6 @@ const ProjSlideNav = ({ item }) => {
             </SlideIcon>
           </Tooltip>
         </a>
-
         <a href={item.url}>
           <Tooltip title="VIEW PAGE">
             <SlideIcon onClick={() => openInNewTab(item.url)}>
@@ -97,9 +110,27 @@ const ProjSlideNav = ({ item }) => {
             </SlideIcon>
           </Tooltip>
         </a>
+        <InfoText>
+          <Popover
+            id={id}
+            open={open}
+            anchorEl={anchorEl}
+            onClose={handleClose}
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+            transformOrigin={{
+              vertical: 'bottom',
+              horizontal: 'left',
+            }}
+          >
+            <Typography sx={{ p: 2 }}>{item.desc}</Typography>
+          </Popover>
+        </InfoText>
       </ImgSlideIcons>
     </Container>
   );
 };
 
-export default ProjSlideNav;
+export default ProjDisNav;

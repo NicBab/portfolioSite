@@ -34,7 +34,7 @@
     font-weight: 300;
     max-width: 800px;
     padding: 20px;
-    background-image: linear-gradient(to bottom left, #201ba624,#6650f227, #6619a51d);
+    background-image: linear-gradient(to top right, #6619a51d, #201ba624, #6650f227, #6619a51d);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -58,10 +58,11 @@
     letter-spacing: 1px;
     margin-top: 20px;
     box-shadow: 2px 2px 5px rgb(161, 147, 161);
+    transition: 0.2s ease;
 }
 
 .contactMeBtn:hover {
-    color: #99FEFF;
+    transform: scale(1.02)
 }
 
 .certs {
@@ -85,7 +86,7 @@
     height: 425px;
     width: 300px;
     position: relative;
-    background-image: linear-gradient(to top right, #201ba624,#6650f227, #6619a51d);
+    background-image: linear-gradient(to bottom right, #6619a51d, #201ba624, #6650f227, #6619a51d);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);

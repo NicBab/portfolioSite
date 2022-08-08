@@ -1,5 +1,19 @@
+.projCardNav {
+display: flex;
+align-items: center;
+justify-content: center;
+position:absolute;
+bottom: 0;
+right: 0;
+border-top: 1px solid rgba(148, 146, 146, 0.296);
+width: 50%;
+height: 40px;
+}
+
 /* {item.desc} */
 .info {
+    position: absolute;
+    bottom: 70px;
     color: rgb(227, 182, 250);
     border-radius: 5px;
     padding: 5px;
@@ -7,47 +21,12 @@
     font-size: 12pt;
 }
 
-.i-Icon {
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
+.projCardIcon {
     color: #B4AEE8;
-    cursor: pointer;
+    padding: 15px;
 }
-
-.git-Icon {
-    position: absolute;
-    bottom: 30px;
-    left: 80px;
-    color: #B4AEE8;
-    cursor: pointer;
-}
-
-.visitBtn {
-    display: flex;
-    position: absolute;
-    bottom: 30px;
-    right: 40px;
-    border: none;
-    border-radius: 20px;
-    color: rgba(7, 7, 7, 0.675);
-    padding: 10px 20px;
-    cursor: pointer;
-    letter-spacing: 1px;
-    color: white;
-    background-image: linear-gradient(to bottom right, rgb(121, 14, 222), rgb(43, 3, 81));
-    box-shadow: 2px 2px 5px rgb(161, 147, 161);
-    /* box-shadow: 2px 2px 10px rgb(161, 147, 161); */
-}
-
-.git-Icon:hover {
+.projCardIcon:hover {
     color: #99FEFF;
 }
 
-.i-Icon:hover {
-    color: #99FEFF;
-}
 
-.visitBtn:hover {
-    color: #99FEFF;
-}

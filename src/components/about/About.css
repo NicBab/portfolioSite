@@ -53,7 +53,6 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    
     height: auto;
     position: relative;
 }
@@ -61,7 +60,7 @@
 .aboutDescWrapper {
     margin: 200px 30px 0px 10px;
     padding: 20px;
-    background-image: linear-gradient(to bottom right, #201ba624,#6650f227, #6619a51d);
+    background-image: linear-gradient(to bottom right, #6619a51d, #201ba624, #6650f227, #6619a51d);
     border-radius: 10px;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(4px);
@@ -97,13 +96,12 @@
     position: absolute;
     bottom: -10px;
     right: 0;
-    margin: 100px 50px 0px 0px;
+    margin: 100px 100px 0px 0px;
     box-shadow: 5px 10px 20px 5px rgb(161, 147, 161);
+    transition: 0.2s ease;
 }
-
 .moreAboutBtn:hover {
-    color: #99FEFF;
-    transform: scale(1.01);
+    transform: scale(1.02)
 }
 
 /* render until screen size hits >870px */

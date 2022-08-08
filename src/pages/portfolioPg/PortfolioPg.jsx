@@ -1,14 +1,12 @@
 import React from "react";
 import "./PortfolioPg.css";
-import { Projects } from "../../components/compIndex";
-import { portfolioData } from "../../data";
+import { ProjDisplay } from "../../components/compIndex";
+
 
 const PortfolioPg = () => {
   return (
     <div className="portfolioPg">
-      {portfolioData.map((item, id) => (
-        <Projects item={item} key={id} />
-      ))}
+      <ProjDisplay />
     </div>
   );
 };

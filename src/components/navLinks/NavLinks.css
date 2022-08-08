@@ -4,25 +4,21 @@
     justify-content: flex-end;
     font-weight: 400;
     font-size: 8pt;
+    
+    
 }
 
-.home,
-.bio,
-.portfolio,
-.resume,
-.contact {
+.navLink {
     margin: 25px;
     color: rgb(249, 237, 254);
     letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.08s ease;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
-
-    color: #99FEFF;
+.navLink:hover {
+    transform: scale(1.04);
+    color: white;
 }
 
 /* show hamburger menu when screen size is < 800px */

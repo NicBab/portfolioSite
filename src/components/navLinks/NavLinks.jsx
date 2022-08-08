@@ -5,19 +5,19 @@ import { Link } from "react-router-dom";
 const NavLinks = () => {
   return (
     <div className="navLinks">
-      <Link to="/" className="home">
+      <Link to="/" className="navLink">
         HOME
       </Link>
-      <Link to="/bio" className="bio">
+      <Link to="/bio" className="navLink">
         BIO
       </Link>
-      <Link to="/portfolio" className="portfolio">
+      <Link to="/portfolio" className="navLink">
        PORTFOLIO
       </Link>
-      <Link to="/resume" className="resume">
+      <Link to="/resume" className="navLink">
         RESUME
       </Link>
-      <Link to="/contact" className="contact">
+      <Link to="/contact" className="navLink">
         CONTACT
       </Link>
     </div>

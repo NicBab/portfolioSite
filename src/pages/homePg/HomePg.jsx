@@ -1,13 +1,13 @@
 import React from "react";
 import "./HomePg.css"
-import { Intro, About, Contact, Slider } from "../../components/compIndex";
+import { Intro, About, Contact, Projects } from "../../components/compIndex";
 
 const HomePg = () => {
   return (
     <div className="homePg">
       <Intro />
       <About />
-      <Slider />
+      <Projects />
       <Contact />
     </div>
   );

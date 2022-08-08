@@ -1,16 +1,16 @@
-.sliderWrapper {
+.displayWrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 80vh;
+    height: 60vh;
     padding: 100px 0px 40px 0px;
     border-bottom: 1px solid rgb(232, 232, 244); 
 }
 
-.sliderCon {
+.displayContainer{
     max-width: 80%;
-    height: 700px;
-    background-image: linear-gradient(to top right, #201ba624,#6650f227, #6619a51d);
+    height: 600px;
+    background-image: linear-gradient(to top right, #6619a51d, #201ba624, #6650f227, #6619a51d);
     border-radius: 10px;
     border: 1px solid rgba(134, 133, 133, 0.212);
     padding: 20px;
@@ -37,29 +37,6 @@
     box-shadow: 2px 2px 5px rgb(161, 147, 161);
 }
 
-.viewPortfoBtnCon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.viewPortfoBtn {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border: none;
-    padding: 5px;
-    width: 200px;
-    border-radius: 30px;
-    cursor: pointer;
-    background-image: linear-gradient(to bottom right, rgb(121, 14, 222), rgb(43, 3, 81));
-    color: white;
-    letter-spacing: 1px;
-    box-shadow: 5px 10px 20px 5px rgb(161, 147, 161);
-}
-.viewPortfoBtn:hover {
-    color: #99FEFF;
-    transform: scale(1.01);
-}
 
 @media screen and (min-width: 500px) {
     .viewPortfoBtnCon {
