@@ -1,22 +1,112 @@
-.resumePage {
-    background-color: rgb(196, 196, 241);
-    height: 100%;
+.res-pg-ctn {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw; 
+    border-bottom: 1px solid rgba(232, 232, 244, 0.451);
+}
+
+.res {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    border: 1px solid rgba(132, 132, 132, 0.103);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(211, 211, 240, 0.113);
+}
+
+.page-left {
+    height: 700px;
+    width: 250px;
+    margin: 20px;
+}
+
+.aside-ctn {
+    border: 1px solid rgba(81, 80, 80, 0.268);
+    background-color: rgba(196, 196, 241, 0.298);
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 1px rgb(161, 147, 161);
+}
+
+.page-center {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.res-h3 {
+    font-size: 12pt;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.res-proj-ctn,
+.res-ed-ctn,
+.res-exp-ctn {
+    border: 1px solid rgba(81, 80, 80, 0.268);
+    background-color: rgba(196, 196, 241, 0.298);
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 1px rgb(161, 147, 161);
+}
+
+
+.view-pdf-btn-ctn {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    
+}
+
+.viewPdfBtn {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #6619A5;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 5px 10px 20px 5px rgb(161, 147, 161);
+    transition: 0.2s ease;
+}
+
+.viewPdfBtn:hover {
+    transform: scale(1.02)
 }
 
 .resPNG {
-height: 1000px;
-width: 800px;
-border-radius: 10px;
-margin: 30px;
-box-shadow: 10px 10px 20px  rgb(161, 147, 161);
+    height: 1000px;
+    width: 800px;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px 20px rgb(161, 147, 161);
 }
 
-@media screen and ( max-width: 870px) {
-    .resPNG {
+@media screen and (max-width: 870px) {
+    /* .resPNG {
         height: 550px;
         width: 350px;
-    }
+    } */
 }

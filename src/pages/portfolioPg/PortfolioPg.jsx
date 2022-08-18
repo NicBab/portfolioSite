@@ -1,12 +1,12 @@
 import React from "react";
 import "./PortfolioPg.css";
-import { ProjDisplay } from "../../components/compIndex";
+import { Projects } from "../../components/compIndex";
 
 
 const PortfolioPg = () => {
   return (
     <div className="portfolioPg">
-      <ProjDisplay />
+      <Projects />
     </div>
   );
 };

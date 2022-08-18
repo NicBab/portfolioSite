@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { FootLinks, FootSocial } from "../compIndex";
-import gearsImg from "../../image/gearsImg.png";
+import gears_Img from "../../image/gears_Img.png"
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
         <FootSocial />
         <FootLinks />
         <div className="gearsImgWrapper">
-          <img src={gearsImg} alt="" className="gearsImg" />
+          <img src={gears_Img} alt="" className="gearsImg" />
         </div>
       </div>
     </div>

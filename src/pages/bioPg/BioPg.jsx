@@ -8,7 +8,6 @@ const BioPg = () => {
   return (
     <>
       <div className="bioPgWrapper">
-        {/* <h2 className="certificationsHeader">CERTIFICATIONS</h2> */}
         <div className="certs">
           {bioData.map((item, idx) => (
             <div className="certCard" key={idx}>
@@ -19,7 +18,6 @@ const BioPg = () => {
           ))}
         </div>
         <div className="bioDescWrapper">
-          {/* <img src={ME} alt="" className="meImg" /> */}
           <figcaption className="bioDesc">
             Hi all! My name is Nic Babineaux, I am currently located in
             Lafayette, Louisiana. I am a fullstack, front end, ui developer,
@@ -43,12 +41,14 @@ const BioPg = () => {
             front end and fullstack developer, creating responsive and
             functional web applications for individual artists and local small
             businesses!
+            <div className="contactMeBtnCtn">
             <Link to="/contact">
               <button className="contactMeBtn">
                 CONTACT ME
                 <ArrowForwardIcon />
               </button>
             </Link>
+            </div>
           </figcaption>
         </div>
       </div>

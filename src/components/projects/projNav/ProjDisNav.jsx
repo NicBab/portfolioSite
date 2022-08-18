@@ -57,7 +57,7 @@ const SlideIcon = styled.div`
   color: black;
 
   &:hover {
-    background-color:#8d8ad5;
+    background-color:#999;
     transform: scale(1.1);
   }
 `;
