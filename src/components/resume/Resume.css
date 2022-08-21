@@ -3,16 +3,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw; 
+    min-height: 1200px;
+    min-width: 100vw; 
     border-bottom: 1px solid rgba(232, 232, 244, 0.451);
 }
 
-.res {
-    padding: 40px;
+.res {    
     display: flex;
     flex-direction: row;
-    width: 950px;
+    height: 1000px;
+    width: 1000px;
     border: 1px solid rgba(132, 132, 132, 0.103);
     border-radius: 10px;
     backdrop-filter: blur(5px);
@@ -20,30 +20,51 @@
     background-color: rgba(211, 211, 240, 0.113);
 }
 
-.page-left {
-    height: 700px;
-    width: 250px;
-    margin: 20px;
+.res-left {
+    height: 100%;
+    width: 20%;
 }
 
-.aside-ctn {
-    border: 1px solid rgba(81, 80, 80, 0.268);
+.res-center {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside-skills-ctn {
     background-color: rgba(196, 196, 241, 0.298);
     border-radius: 10px;
-    height: 100%;
+    height: 75%;
     width: 100%;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     box-shadow: 1px 1px 1px rgb(161, 147, 161);
 }
 
-.page-center {
+.aside-int-ctn {
+    background-color: rgba(196, 196, 241, 0.298);
+    border-radius: 10px;
+    height: 25%;
     width: 100%;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 1px rgb(161, 147, 161);
+}
+
+
+.res-proj-ctn,
+.res-ed-ctn,
+.res-exp-ctn {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(196, 196, 241, 0.298);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 1px rgb(161, 147, 161);
 }
 
 .res-h3 {
@@ -52,18 +73,8 @@
     text-decoration: underline;
 }
 
-.res-proj-ctn,
-.res-ed-ctn,
-.res-exp-ctn {
-    border: 1px solid rgba(81, 80, 80, 0.268);
-    background-color: rgba(196, 196, 241, 0.298);
-    border-radius: 10px;
-    height: 200px;
-    width: 100%;
-    padding: 5px;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    box-shadow: 1px 1px 1px rgb(161, 147, 161);
+.proj-ul {
+    /* margin: 20px; */
 }
 
 
@@ -88,7 +99,7 @@
     background-color: #6619A5;
     color: white;
     letter-spacing: 1px;
-    box-shadow: 5px 10px 20px 5px rgb(161, 147, 161);
+    box-shadow: -4px 4px 20px 5px rgb(161, 147, 161);
     transition: 0.2s ease;
 }
 

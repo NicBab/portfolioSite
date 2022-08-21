@@ -11,7 +11,9 @@ const Footer = () => {
         <FootLinks />
         <div className="gearsImgWrapper">
           <img src={gears_Img} alt="" className="gearsImg" />
+          <span className="devTag">2022 STELLAR INNOVATION</span>
         </div>
+        
       </div>
     </div>
   );
