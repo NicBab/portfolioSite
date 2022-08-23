@@ -6,8 +6,8 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const Resume = () => {
   return (
-    <div className="res-pg-ctn">
-      <div className="res">
+    <div className="res-pg">
+      <div className="res-ctn">
         <div className="res-left">
           <div className="aside-skills-ctn">
             <aside className="aside-icons">
@@ -20,7 +20,7 @@ const Resume = () => {
         </div>
 
         <div className="res-center">
-          
+    
           <div className="res-proj-ctn">
             <h3 className="res-h3">PROJECTS</h3>
             <ul className="proj-ul">
