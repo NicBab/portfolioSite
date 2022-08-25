@@ -4,15 +4,16 @@
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 100vw; 
+    min-width: 100vw;
     border-bottom: 1px solid rgba(232, 232, 244, 0.451);
 }
 
-.res-ctn {    
+.res-ctn {
     display: flex;
-    flex-direction: row;
-    height: 800px;
-    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width: 800px;
     border: 1px solid rgba(132, 132, 132, 0.103);
     border-radius: 10px;
     backdrop-filter: blur(5px);
@@ -21,108 +22,21 @@
     padding: 30px;
 }
 
-.res-left {
-    height: 100%;
-    width: 20%;
-}
-
-.res-center {
-    height: 100%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.aside-skills-ctn {
-    background-image: linear-gradient(to bottom , #6619a51d, #201ba624, #6650f227, #6619a51d);
-    border-radius: 10px;
-    height: 70%;
-    width: 100%;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    box-shadow: 1px 1px 1px rgb(161, 147, 161);
-    margin-bottom: 10px;
-}
-
-.aside-int-ctn {
-    background-image: linear-gradient(to top, #6619a51d, #201ba624, #6650f227, #6619a51d);
-    border-radius: 10px;
-    height: 25%;
-    width: 100%;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    box-shadow: 1px 1px 1px rgb(161, 147, 161);
-}
-
-
-.res-proj-ctn,
-.res-ed-ctn,
-.res-exp-ctn {
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(to bottom right, #6619a51d, #201ba624, #6650f227, #6619a51d);
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    box-shadow: 1px 1px 1px rgb(161, 147, 161);
-    margin-bottom: 10px;
-    margin-left: 10px;
-    padding: 3px;
-}
-
-.res-h3 {
-    font-size: 12pt;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.proj-ul {
-    /* margin: 20px; */
-}
-
-
-.view-pdf-btn-ctn {
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    bottom: -20px;
-    right: -20px;
-    
-}
-
-.viewPdfBtn {
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 10px;
-    width: 200px;
-    border-radius: 30px;
-    cursor: pointer;
-    background-color: #6619A5;
-    color: white;
-    letter-spacing: 1px;
-    box-shadow: -4px 4px 20px 5px rgb(161, 147, 161);
-    transition: 0.2s ease;
-}
-
-.viewPdfBtn:hover {
-    transform: scale(1.02)
-}
-
 .resPNG {
-    height: 1000px;
-    width: 800px;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
     margin: 30px;
     box-shadow: 10px 10px 20px rgb(161, 147, 161);
 }
 
 @media screen and (max-width: 870px) {
-    /* .resPNG {
+    .res-ctn {
+        height: 800px;
+        width: 100vh
+    }
+    .resPNG {
         height: 550px;
         width: 350px;
-    } */
+    }
 }

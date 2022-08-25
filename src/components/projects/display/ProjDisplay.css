@@ -2,20 +2,23 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
+    height: auto;
     padding: 100px 0px 40px 0px;
     border-bottom: 1px solid rgba(232, 232, 244, 0.451);
 }
 
 .displayContainer {
-    max-width: 80%;
-    height: 600px;
-    background-image: linear-gradient(to top right, #6619a51d, #201ba624, #6650f227, #6619a51d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 800px;
+    border: 1px solid rgba(132, 132, 132, 0.103);
     border-radius: 10px;
-    border: 1px solid rgba(134, 133, 133, 0.212);
-    padding: 20px;
-    margin: 40px 10px 40px 10px;
-    box-shadow: -3px 3px 10px rgb(161, 147, 161);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(223, 223, 239, 0.243);
+    padding: 30px;
 }
 
 .sliderImg {
@@ -40,7 +43,7 @@
 
 .viewPortfoBtnCtn {
     align-self: flex-end;
-    margin-right: 100px;
+    margin: 100px 300px 100px 0px;
 }
 
 .viewPortfoBtn {
@@ -73,4 +76,5 @@
         margin-left: none;
         margin-left: 300px;
     }
+    
 }

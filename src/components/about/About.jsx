@@ -17,14 +17,20 @@ const About = () => {
         <div className="aboutDescWrapper">
           <h1 className="a-title">About Me</h1>
           <p className="a-sub">
-            It is a long established fact that a reader will be distracted by
-            the readable content.
+          Striking balance between functional and
+            aesthetic design...
           </p>
           <p className="a-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+            With a passion for developing features utilizing a variety of markup
+            languages and frameworks to create web front end, back end, servers,
+            databases SQL and noSQL, APIs and enhance the functionality, user
+            experience and user interface design, while optimizing web pages for
+            maximum speed and scalability. Strong technical background and
+            management skills. Excellent troubleshooting, debugging and
+            problem-solving skills. Ability to multi-task and a keen eye for
+            detail provide the ability to work individually, or as part of a
+            development team to create high-level programs that perfectly meet
+            the needs of the company.
           </p>
         </div>
         <Link to="/bio">

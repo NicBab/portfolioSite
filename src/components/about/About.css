@@ -1,5 +1,5 @@
 .about {
-    min-height: 700px;
+    min-height: 800px;
     display: flex;
     border-bottom: 1px solid rgba(232, 232, 244, 0.451);
 }
@@ -75,10 +75,13 @@
 
 .a-sub {
     margin: 20px 0px;
+   
 }
 
 .a-desc {
     font-weight: 300;
+    line-height: 1.5;
+    text-indent: 10px;
 }
 
 .moreAboutBtn {
@@ -111,7 +114,7 @@
     .about {
         display: flex;
         flex-direction: column;
-        min-height: 950px;
+        min-height: 140vh;
     }
     .aboutLeft {
         min-height: 350px;
@@ -127,7 +130,6 @@
         left: 10px;
     }
     .aboutRight {
-        
         justify-content: flex-start;
     }
 }

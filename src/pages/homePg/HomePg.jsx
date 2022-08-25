@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePg.css"
-import { Intro, About, Contact, ProjDisplay, Resume } from "../../components/compIndex";
+import { Intro, About, Contact, ProjDisplay } from "../../components/compIndex";
 
 const HomePg = () => {
   return (
@@ -8,7 +8,7 @@ const HomePg = () => {
       <Intro />
       <About />
       <ProjDisplay />
-      <Resume />
+      
       <Contact />
     </div>
   );
