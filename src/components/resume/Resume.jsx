@@ -2,13 +2,13 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import "./Resume.css";
 // import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import resPNG from "../../image/Nic_Bab_res.png";
+import NickResume from "../../image/Nic_Babineaux_resume.png"
 
 const Resume = () => {
   return (
     <div className="res-pg">
       <div className="res-ctn">
-        <img src={resPNG} alt="" className="resPNG"/>
+        <img src={NickResume} alt="" className="resPNG"/>
       </div>
     </div>
   );

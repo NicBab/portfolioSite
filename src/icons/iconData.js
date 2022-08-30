@@ -86,18 +86,6 @@ export const plusData = [
     icon: githubIcon,
     cName: "plus-text",
   },
-  {
-    title: "Facebook",
-    url: null,
-    icon: facebookIcon,
-    cName: "plus-text",
-  },
-  {
-    title: "Instagram",
-    url: null,
-    icon: instagramIcon,
-    cName: "plus-text",
-  },
 ];
 
 
